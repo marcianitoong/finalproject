@@ -1,1 +1,1 @@
-# finalproject the merder of jones
+# The Murder of Jones Gambit
