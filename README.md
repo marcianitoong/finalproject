@@ -1,4 +1,4 @@
-# {Working Title here} - High Concept
+# The Murder of Jones Gambit - High Concept
 _{Optional tagline here}_
 
 ## Premise
