@@ -1,5 +1,5 @@
 {
-	"name": "Alley",
+	"name": "Layout 1",
 	"layers": [
 		{
 			"name": "grownd",
@@ -929,5 +929,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Alley Event Sheet"
+	"eventSheet": "Event sheet 1"
 }
