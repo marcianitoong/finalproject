@@ -2,25 +2,27 @@
 _There's something suspicious about the murder of Jones Gambit._
 
 ## Premise
-You're a young detective investigating the murder of local celebrity Jones Gambit. The detective has to wander through 3D and 2D levels, interacting with people and objects to find clues.
+You're a young detective investigating the murder of local celebrity Jones Gambit in Alley City. You wander through 3D and 2D levels, interacting with people and objects to find clues.
 
 ## Features
-- The player has to interact with NPCs to find clues
-- The player can interact with clues to advance in the game and gain more information on Jones Gambit
-- The game features 3D and 2D levels.
+- Story-telling
+- Interactive
+- Mysterious and dark setting
+- Clues that reveal the mystery of Jones Gambit's murder
+- NPCs that appear to be hiding something
 
 
 ## Gameplay Outline
-The gameplay largely relies on the story. The player has to interact with NPCs and listen to what they have to say to unlock 2D levels that contain clues. The clues are necessary to access the last level of this game. The clues also provide background on Jones Gambit and his murder. The player learns a lot of the story from interacting with NPCs and clues.
+The gameplay largely relies on the story. As you explore Alley City, you will find out more about Jones Gambit from the people that live there. The people of Alley City know a lot about everyone there, but will they be willing to share information with you? They could lead you to clues, or refuse to talk to you at all.
 
 ## Technical
 
 ### Genres
-- 2D Puzzle Platformer
+- 2D Platformer
 - 3D Adventure Game
 
 ### Audience and Venue
-Our audience will be players of any age that are interested in story-centered games. Our game will be available on PC, Mac, and Linux.
+Our audience will be players above the age of 10 that are interested in story-centered games. We are aiming for an ESRB rating of E10+. Our game will be available on PC, Mac, and Linux, as it is web-based.
 
 ## Tilt
 
