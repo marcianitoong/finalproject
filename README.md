@@ -32,6 +32,6 @@ Players will be motivated to play through this game as they would want to figure
 Our game is unique because there aren't many detective/mystery games out there. Our game would also be unique as it switches from 2D to 3D levels. The switch between 3D and 2D will be simple to players as well as they would both use the same controls.
 
 ## Competition
-Gris - Has a story based on colors and Gris has special powers they unlock throughout the game.
-INSIDE - Dark and sometimes spooky. 2.5D level design.
-Portal - A 3D puzzle platformer that makes use of a portal gun to solve puzzles.
+- Gris - Has a story based on colors and Gris has special powers they unlock throughout the game.
+- INSIDE - Dark and sometimes spooky. 2.5D level design.
+- Portal - A 3D puzzle platformer that makes use of a portal gun to solve puzzles.
