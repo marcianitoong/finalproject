@@ -9,7 +9,7 @@ You're a young detective investigating the murder of local celebrity Jones Gambi
 - Suspenseful story-telling.
 - Interactive murder mystery with intense plot twists.
 - Mysterious and dark setting that the detective will nagivate through.
-- Puzzling clues that reveal the mystery of Jones Gambit's murder.
+- Clues that reveal unexpected details of Jones Gambit's murder. 
 - Strange NPCs that are hiding a secret.
 
 
