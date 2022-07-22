@@ -127,13 +127,23 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Alley",
+			"First Clue",
+			"Second Clue",
+			"Third Clue",
+			"Bar",
+			"Hideout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Alley Event Sheet",
+			"First Clue Event Sheet",
+			"Second Clue Event Sheet",
+			"Third Clue Event Sheet",
+			"Bar Event Sheet",
+			"Hideout Event Sheet"
 		],
 		"subfolders": []
 	},
