@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD:eventSheets/event sheet 1.json
 	"name": "Event sheet 1",
 	"events": [
 		{
@@ -314,5 +315,9 @@
 			"sid": 285715379479755
 		}
 	],
+=======
+	"name": "Alley Event Sheet",
+	"events": [],
+>>>>>>> 147e467e8de4c2516a260535012ea433dd813653:eventSheets/alley event sheet.json
 	"sid": 318310682169119
 }
