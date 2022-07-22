@@ -16,9 +16,8 @@ The gameplay is largely reliant on the story. The player has to interact with NP
 ## Technical
 
 ### Genres
-2D Platformer
-Puzzle Platformer
-3D Adventure Game
+- 2D Puzzle Platformer
+- 3D Adventure Game
 
 ### Audience and Venue
 Our audience will be players of any age that are interested in story-centered games. Our game will be available on PC, Mac, and Linux.
