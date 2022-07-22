@@ -1,5 +1,5 @@
 # The Murder of Jones Gambit - High Concept
-_There's something suspicious about the murder of Jones Gambit_
+_There's something suspicious about the murder of Jones Gambit._
 
 ## Premise
 You're a young detective investigating the murder of local celebrity Jones Gambit. The detective has to wander through 3D and 2D levels, interacting with people and objects to find clues.
