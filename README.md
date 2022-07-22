@@ -11,7 +11,7 @@ You're a young detective investigating the murder of local celebrity Jones Gambi
 
 
 ## Gameplay Outline
-The gameplay is largely reliant on the story. The player has to interact with players and listen to what they have to say to unlock 2D levels that contain clues. The clues are necessary to access the last level of this game. The clues also provide background on Jones Gambit and his murder. The player learns a lot of the story from interacting with NPCs and clues.
+The gameplay is largely reliant on the story. The player has to interact with NPCs and listen to what they have to say to unlock 2D levels that contain clues. The clues are necessary to access the last level of this game. The clues also provide background on Jones Gambit and his murder. The player learns a lot of the story from interacting with NPCs and clues.
 
 ## Technical
 
