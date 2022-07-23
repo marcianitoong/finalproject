@@ -12,14 +12,14 @@
 		}
 	],
 	"image": {
-		"width": 120,
-		"height": 120,
+		"width": 166,
+		"height": 157,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8809519,
+		"imageSpriteId": 7273216,
 		"useCollisionPoly": true
 	}
 }

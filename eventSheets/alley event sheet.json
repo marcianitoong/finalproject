@@ -121,11 +121,11 @@
 						{
 							"id": "rotate-camera",
 							"objectClass": "3DCamera",
-							"sid": 168220065670020,
+							"sid": 547523714551102,
 							"parameters": {
 								"rotate-x": "Mouse.MovementX/mouseSense",
 								"rotate-y": "Mouse.MovementY/mouseSense",
-								"min-polar-angle": "20",
+								"min-polar-angle": "70",
 								"max-polar-angle": "130"
 							}
 						}
@@ -312,6 +312,168 @@
 				}
 			],
 			"sid": 285715379479755
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "rats",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 681918578546394,
+							"parameters": {
+								"interval-seconds": "random(3,6)"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "find-path",
+							"objectClass": "ratBody",
+							"sid": 491686884119095,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "ratBody.X+random(-150,150)",
+								"y": "ratBody.Y+random(-150,150)"
+							}
+						}
+					],
+					"sid": 812677327330060
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "ratBody",
+							"sid": 406599423583143,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "ratBody",
+							"sid": 225402234459235,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"sid": 444265993574901
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "ratBody",
+							"sid": 338897679759523,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "player",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "ratBody",
+							"sid": 633521173821416,
+							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "ratBody",
+							"sid": 208872765045009,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"set": "disabled"
+							}
+						},
+						{
+							"id": "move-forward",
+							"objectClass": "ratBody",
+							"sid": 890223845481326,
+							"parameters": {
+								"distance": "random(4,10)"
+							}
+						}
+					],
+					"sid": 755155195134857,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "ratBody",
+									"sid": 674013823229431,
+									"parameters": {
+										"object": "wall"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "ratBody",
+									"sid": 386309964640377
+								}
+							],
+							"sid": 555025164620057
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "ratBody",
+									"sid": 815724213306199,
+									"parameters": {
+										"object": "boxes"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "ratBody",
+									"sid": 528991614557562
+								}
+							],
+							"sid": 964599558750127
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "ratBody",
+									"sid": 750432395480935,
+									"parameters": {
+										"object": "dumpsterbottem"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "ratBody",
+									"sid": 869552179380712
+								}
+							],
+							"sid": 909307016122188
+						}
+					]
+				}
+			],
+			"sid": 596374826460202
 		}
 	],
 	"sid": 318310682169119

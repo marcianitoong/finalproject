@@ -1,7 +1,7 @@
 {
 	"name": "3DShape2",
 	"plugin-id": "Shape3D",
-	"sid": 757956152749045,
+	"sid": 476280482492600,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6011490,
+						"imageSpriteId": 1909893,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -30,7 +30,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1129927,
+						"imageSpriteId": 3229890,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -42,7 +42,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9406472,
+						"imageSpriteId": 997173,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -54,7 +54,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9771853,
+						"imageSpriteId": 7206367,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -66,7 +66,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1008683,
+						"imageSpriteId": 3933524,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -78,12 +78,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8525668,
+						"imageSpriteId": 2941706,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 180341607969575,
+				"sid": 797240445991360,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

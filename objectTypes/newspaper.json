@@ -1,0 +1,57 @@
+{
+	"name": "newspaper",
+	"plugin-id": "Sprite",
+	"sid": 978105316150461,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 417,
+						"height": 288,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2984321,
+						"collisionPoly": {
+							"points": [
+								0.21103117505995203,
+								0.3055555555555556,
+								0.5,
+								0.1909722222222222,
+								0.8225419664268585,
+								0.2534722222222222,
+								0.8968824940047961,
+								0.5,
+								0.7865707434052758,
+								0.6909722222222222,
+								0.5,
+								0.8194444444444444,
+								0.17985611510791366,
+								0.7361111111111112,
+								0.06474820143884892,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 366966146429527,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

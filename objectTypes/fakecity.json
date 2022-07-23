@@ -1,0 +1,57 @@
+{
+	"name": "fakeCity",
+	"plugin-id": "Sprite",
+	"sid": 399125334374963,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 590,
+						"height": 332,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5020830,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9983050847457627,
+								0,
+								0.9983050847457627,
+								0.5,
+								0.9983050847457627,
+								0.9969879518072289,
+								0.5,
+								0.9969879518072289,
+								0,
+								0.9969879518072289,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 597257764070874,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
