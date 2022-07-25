@@ -33,7 +33,7 @@
 					"objectClass": "Mouse",
 					"sid": 764350850120415,
 					"parameters": {
-						"object": "Sprite18"
+						"object": "Button"
 					}
 				}
 			],

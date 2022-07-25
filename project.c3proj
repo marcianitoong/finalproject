@@ -16,14 +16,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Camera3D",
-			"name": "3D camera",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -34,6 +26,22 @@
 			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Camera3D",
+			"name": "3D camera",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "shadowlight",
+			"name": "Shadow light",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -56,14 +64,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "shadowlight",
-			"name": "Shadow light",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
@@ -80,24 +80,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "LOS",
-			"name": "Line of sight",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
+			"id": "solid",
+			"name": "Solid",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -120,8 +104,24 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -146,115 +146,110 @@
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
 		"items": [
-			"wall",
 			"Mouse",
 			"Keyboard",
-			"TiledBackground",
-			"ShadowLight",
-			"3DShape",
-			"3DShape7",
-			"Sprite2",
-			"Sprite3",
-			"Sprite4",
-			"Sprite5",
-			"Sprite6",
-			"Sprite7",
-			"Sprite9",
-			"Sprite10",
-			"Sprite11",
-			"Sprite12",
-			"Sprite13",
-			"Sprite14",
-			"3DShape24",
-			"3DShape2",
-			"window",
-			"Sprite15",
-			"Sprite16",
-			"Text",
-			"Text2",
-			"Text3",
-			"Text4",
-			"Sprite18",
+			"TitleText",
+			"StartText",
+			"ControlsText",
+			"CreditsText",
+			"Button",
 			"Audio"
 		],
 		"subfolders": [
 			{
 				"items": [
-					"ratBody"
+					"brickfloor",
+					"ShadowLight"
 				],
-				"subfolders": [],
-				"name": "rat"
-			},
-			{
-				"items": [
-					"3DCamera",
-					"player",
-					"cam"
+				"subfolders": [
+					{
+						"items": [
+							"unseenArea",
+							"fakeCity",
+							"Boxes",
+							"Door",
+							"walls",
+							"trashCan",
+							"doors",
+							"pipes",
+							"wall",
+							"window",
+							"windowsprite"
+						],
+						"subfolders": [],
+						"name": "3D Sprites"
+					},
+					{
+						"items": [
+							"grafede",
+							"grafede1",
+							"grafede2",
+							"grafede4",
+							"grafede3",
+							"grafede5",
+							"grafede6",
+							"grafede7",
+							"grafede8",
+							"grafede9",
+							"grafede10",
+							"grafede11",
+							"grafede12",
+							"grafede13",
+							"grafede14",
+							"grafede15",
+							"grafede16",
+							"grafede17",
+							"grafede18",
+							"grafede19"
+						],
+						"subfolders": [],
+						"name": "graffiti"
+					},
+					{
+						"items": [
+							"3DCamera",
+							"player",
+							"cam"
+						],
+						"subfolders": [],
+						"name": "player"
+					},
+					{
+						"items": [
+							"BoxesProp",
+							"dumpsterbottom",
+							"dumpsterTop",
+							"Fence",
+							"newspaper"
+						],
+						"subfolders": [],
+						"name": "props"
+					},
+					{
+						"items": [
+							"ratBody"
+						],
+						"subfolders": [],
+						"name": "rat"
+					},
+					{
+						"items": [
+							"splot1",
+							"splot2",
+							"splot3",
+							"splot4",
+							"splot5",
+							"splot6",
+							"splot7",
+							"splot0",
+							"splot8",
+							"splot9"
+						],
+						"subfolders": [],
+						"name": "splots"
+					}
 				],
-				"subfolders": [],
-				"name": "player"
-			},
-			{
-				"items": [
-					"boxes",
-					"dumpsterbottem",
-					"dumpsterTop",
-					"Fence",
-					"newspaper"
-				],
-				"subfolders": [],
-				"name": "props"
-			},
-			{
-				"items": [
-					"3DShape9",
-					"fakeCity",
-					"placeHolderboxes",
-					"placeHolderBrik1",
-					"placeHolderDoor",
-					"Sprite",
-					"Sprite8",
-					"TiledBackground2",
-					"TiledBackground3",
-					"TiledBackground4",
-					"TiledBackground5",
-					"TiledBackground6",
-					"TiledBackground7",
-					"trashCan"
-				],
-				"subfolders": [],
-				"name": "place holder"
-			},
-			{
-				"items": [],
-				"subfolders": [],
-				"name": "splots"
-			},
-			{
-				"items": [
-					"grafede",
-					"grafede1",
-					"grafede2",
-					"grafede4",
-					"grafede3",
-					"grafede5",
-					"grafede6",
-					"grafede7",
-					"grafede8",
-					"grafede9",
-					"grafede10",
-					"grafede11",
-					"grafede12",
-					"grafede13",
-					"grafede14",
-					"grafede15",
-					"grafede16",
-					"grafede17",
-					"grafede18",
-					"grafede19"
-				],
-				"subfolders": [],
-				"name": "grafede"
+				"name": "3D"
 			}
 		]
 	},
@@ -262,7 +257,7 @@
 	"containers": [
 		{
 			"members": [
-				"dumpsterbottem",
+				"dumpsterbottom",
 				"dumpsterTop"
 			],
 			"selectMode": "normal"

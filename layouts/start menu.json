@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground7",
+					"type": "walls",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -74,7 +74,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite18",
+					"type": "Button",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -103,7 +103,7 @@
 					}
 				},
 				{
-					"type": "Sprite18",
+					"type": "Button",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -132,7 +132,7 @@
 					}
 				},
 				{
-					"type": "Sprite18",
+					"type": "Button",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -195,7 +195,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Text",
+					"type": "TitleText",
 					"properties": {
 						"text": "The Murder of Jones Gambit",
 						"enable-bbcode": true,
@@ -237,7 +237,7 @@
 					}
 				},
 				{
-					"type": "Text2",
+					"type": "StartText",
 					"properties": {
 						"text": "Start",
 						"enable-bbcode": true,
@@ -279,7 +279,7 @@
 					}
 				},
 				{
-					"type": "Text3",
+					"type": "ControlsText",
 					"properties": {
 						"text": "Controls",
 						"enable-bbcode": true,
@@ -321,7 +321,7 @@
 					}
 				},
 				{
-					"type": "Text4",
+					"type": "CreditsText",
 					"properties": {
 						"text": "Credits",
 						"enable-bbcode": true,

@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -54,7 +54,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -101,7 +101,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -148,7 +148,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -195,7 +195,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -242,7 +242,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -289,7 +289,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -336,7 +336,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -383,7 +383,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -477,7 +477,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -524,7 +524,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -571,7 +571,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -618,7 +618,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -665,7 +665,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -712,7 +712,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -759,7 +759,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -806,7 +806,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -853,7 +853,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -900,7 +900,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -947,7 +947,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -994,7 +994,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1041,7 +1041,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1088,7 +1088,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1135,7 +1135,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1182,7 +1182,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1229,7 +1229,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1276,7 +1276,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -1923,7 +1923,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -1963,7 +1963,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2003,7 +2003,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 15,
@@ -2043,7 +2043,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2083,7 +2083,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 15,
@@ -2123,7 +2123,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2163,7 +2163,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2203,7 +2203,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 15,
@@ -2243,7 +2243,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2283,7 +2283,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2323,7 +2323,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2363,7 +2363,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2403,7 +2403,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2443,7 +2443,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2512,12 +2512,12 @@
 			"global": false
 		},
 		{
-			"name": "grownd",
+			"name": "ground",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "brickfloor",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -2556,40 +2556,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground6",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -597,
-						"y": -669,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -2636,7 +2603,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -2683,7 +2650,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -2730,7 +2697,7 @@
 					}
 				},
 				{
-					"type": "3DShape9",
+					"type": "unseenArea",
 					"properties": {
 						"shape": "box",
 						"z-height": 200,
@@ -2753,8 +2720,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -429.5,
-						"y": 516,
+						"x": -438,
+						"y": 520,
 						"width": -657,
 						"height": 1627,
 						"originX": 0.5,
@@ -2799,7 +2766,7 @@
 					}
 				},
 				{
-					"type": "3DShape24",
+					"type": "pipes",
 					"properties": {
 						"shape": "box",
 						"z-height": 3,
@@ -2822,8 +2789,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -496.5896159883565,
-						"y": 126.47816127271938,
+						"x": -256,
+						"y": 735,
 						"width": 173.5263324239467,
 						"height": 23.558419124611078,
 						"originX": 0.5,
@@ -3057,68 +3024,6 @@
 							1
 						],
 						"angle": 0.00046016401396638,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TiledBackground5",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -222,
-						"y": 873,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0.0026583357609553104,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "placeHolderBrik1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -494,
-						"y": 1391,
-						"width": 260,
-						"height": 164,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -3716,7 +3621,7 @@
 			"global": false
 		},
 		{
-			"name": "graffede",
+			"name": "graffiti",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
@@ -4510,12 +4415,12 @@
 			"global": false
 		},
 		{
-			"name": "spalats",
+			"name": "splots",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4544,7 +4449,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "splot6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4573,7 +4478,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "splot8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4602,7 +4507,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4631,7 +4536,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "splot0",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4660,7 +4565,7 @@
 					}
 				},
 				{
-					"type": "Sprite10",
+					"type": "splot1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4689,7 +4594,7 @@
 					}
 				},
 				{
-					"type": "Sprite11",
+					"type": "splot2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4718,7 +4623,7 @@
 					}
 				},
 				{
-					"type": "Sprite12",
+					"type": "splot3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4747,7 +4652,7 @@
 					}
 				},
 				{
-					"type": "Sprite13",
+					"type": "splot7",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4776,7 +4681,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4805,7 +4710,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "splot6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4834,7 +4739,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "splot8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4863,7 +4768,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4892,7 +4797,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "splot0",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4921,7 +4826,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4950,7 +4855,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -4979,7 +4884,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5008,7 +4913,7 @@
 					}
 				},
 				{
-					"type": "Sprite10",
+					"type": "splot1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5037,7 +4942,7 @@
 					}
 				},
 				{
-					"type": "Sprite11",
+					"type": "splot2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5066,7 +4971,7 @@
 					}
 				},
 				{
-					"type": "Sprite12",
+					"type": "splot3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5095,7 +5000,7 @@
 					}
 				},
 				{
-					"type": "Sprite13",
+					"type": "splot7",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5124,7 +5029,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5153,7 +5058,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "splot6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5182,7 +5087,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "splot8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5211,7 +5116,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "splot0",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5240,7 +5145,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "splot6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5269,7 +5174,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "splot8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5298,7 +5203,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5327,7 +5232,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5356,7 +5261,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "splot5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5385,7 +5290,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "splot9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5414,7 +5319,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "splot0",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5443,7 +5348,7 @@
 					}
 				},
 				{
-					"type": "Sprite12",
+					"type": "splot3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5472,7 +5377,7 @@
 					}
 				},
 				{
-					"type": "Sprite11",
+					"type": "splot2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5501,7 +5406,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5530,7 +5435,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5559,7 +5464,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5588,7 +5493,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5617,7 +5522,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5646,7 +5551,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "splot4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5903,7 +5808,7 @@
 					}
 				},
 				{
-					"type": "placeHolderDoor",
+					"type": "Door",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -5990,7 +5895,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -6037,7 +5942,7 @@
 					}
 				},
 				{
-					"type": "placeHolderboxes",
+					"type": "Boxes",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -6066,7 +5971,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,
@@ -6113,7 +6018,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -6160,7 +6065,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground7",
+					"type": "walls",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -6193,36 +6098,7 @@
 					}
 				},
 				{
-					"type": "Sprite8",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 35,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -336.5913813082807,
-						"y": 894.4096655059355,
-						"width": 61.91964005796763,
-						"height": 55.5372363709414,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "3DShape2",
+					"type": "doors",
 					"properties": {
 						"shape": "box",
 						"z-height": 27,
@@ -6262,7 +6138,7 @@
 					}
 				},
 				{
-					"type": "3DShape2",
+					"type": "doors",
 					"properties": {
 						"shape": "box",
 						"z-height": 27,
@@ -6302,7 +6178,7 @@
 					}
 				},
 				{
-					"type": "3DShape2",
+					"type": "doors",
 					"properties": {
 						"shape": "box",
 						"z-height": 27,
@@ -6342,7 +6218,7 @@
 					}
 				},
 				{
-					"type": "3DShape2",
+					"type": "doors",
 					"properties": {
 						"shape": "box",
 						"z-height": 27,
@@ -6382,7 +6258,7 @@
 					}
 				},
 				{
-					"type": "3DShape2",
+					"type": "doors",
 					"properties": {
 						"shape": "box",
 						"z-height": 27,
@@ -6422,7 +6298,7 @@
 					}
 				},
 				{
-					"type": "Sprite16",
+					"type": "windowsprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -6434,8 +6310,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -357,
-						"y": 669,
+						"x": -316,
+						"y": 827,
 						"width": 114,
 						"height": 148,
 						"originX": 0.5087719298245614,
@@ -16071,7 +15947,7 @@
 					}
 				},
 				{
-					"type": "boxes",
+					"type": "BoxesProp",
 					"properties": {
 						"shape": "box",
 						"z-height": 10,

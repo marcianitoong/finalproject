@@ -436,7 +436,7 @@
 									"objectClass": "ratBody",
 									"sid": 815724213306199,
 									"parameters": {
-										"object": "boxes"
+										"object": "BoxesProp"
 									}
 								}
 							],
@@ -457,7 +457,7 @@
 									"objectClass": "ratBody",
 									"sid": 750432395480935,
 									"parameters": {
-										"object": "dumpsterbottem"
+										"object": "dumpsterbottom"
 									}
 								}
 							],
