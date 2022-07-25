@@ -1,0 +1,61 @@
+{
+	"name": "ControlsButton",
+	"plugin-id": "Sprite",
+	"sid": 983214816985242,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 300,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7388303,
+						"collisionPoly": {
+							"points": [
+								0.08333333333333333,
+								0,
+								0.9166666666666666,
+								0,
+								0.9166666666666666,
+								1,
+								0.08333333333333333,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 300,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1782027,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 954604051586150,
+				"name": "click",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

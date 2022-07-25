@@ -48,8 +48,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -64,16 +72,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -146,14 +146,7 @@
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
 		"items": [
-			"Mouse",
-			"Keyboard",
-			"TitleText",
-			"StartText",
-			"ControlsText",
-			"CreditsText",
-			"Button",
-			"Audio"
+			"Mouse"
 		],
 		"subfolders": [
 			{
@@ -209,7 +202,7 @@
 						"items": [
 							"3DCamera",
 							"player",
-							"cam"
+							"camera"
 						],
 						"subfolders": [],
 						"name": "player"
@@ -250,6 +243,27 @@
 					}
 				],
 				"name": "3D"
+			},
+			{
+				"items": [
+					"ControlsButton",
+					"ControlsText",
+					"CreditsButton",
+					"CreditsText",
+					"StartButton",
+					"StartText",
+					"TitleText"
+				],
+				"subfolders": [],
+				"name": "2D"
+			},
+			{
+				"items": [
+					"Audio",
+					"Keyboard"
+				],
+				"subfolders": [],
+				"name": "Both"
 			}
 		]
 	},
@@ -314,6 +328,14 @@
 					"name": "Start Menu Music.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 384877628727343,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Final Music.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 116886795812895,
 					"file-info": {
 						"purpose": "none"
 					}

@@ -1,7 +1,7 @@
 {
-	"name": "cam",
+	"name": "CreditsButton",
 	"plugin-id": "Sprite",
-	"sid": 903257549035101,
+	"sid": 405375886280372,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,32 +11,44 @@
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 182,
+						"width": 300,
+						"height": 100,
 						"originX": 0.5,
-						"originY": 0.4945054945054945,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3786803,
+						"imageSpriteId": 5829716,
 						"collisionPoly": {
 							"points": [
-								0.003968253968253968,
+								0.08333333333333333,
 								0,
-								0.996031746031746,
+								0.9166666666666666,
 								0,
-								0.996031746031746,
+								0.9166666666666666,
 								1,
-								0.003968253968253968,
+								0.08333333333333333,
 								1
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
+					},
+					{
+						"width": 300,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2547386,
+						"useCollisionPoly": true,
+						"duration": 1
 					}
 				],
-				"sid": 482698873487922,
-				"name": "Animation 1",
+				"sid": 575703673986719,
+				"name": "click",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

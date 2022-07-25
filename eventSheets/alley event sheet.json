@@ -40,7 +40,7 @@
 					"actions": [
 						{
 							"id": "set-position-to-another-object",
-							"objectClass": "cam",
+							"objectClass": "camera",
 							"sid": 744928249007222,
 							"parameters": {
 								"object": "player",
@@ -52,10 +52,10 @@
 							"objectClass": "3DCamera",
 							"sid": 939241140861957,
 							"parameters": {
-								"cam-x": "cam.X",
-								"cam-y": "cam.Y",
-								"cam-z": "cam.ZElevation+camHeight",
-								"look-angle": "cam.Angle"
+								"cam-x": "camera.X",
+								"cam-y": "camera.Y",
+								"cam-z": "camera.ZElevation+camHeight",
+								"look-angle": "camera.Angle"
 							}
 						},
 						{
@@ -63,7 +63,7 @@
 							"objectClass": "player",
 							"sid": 614654553232919,
 							"parameters": {
-								"child": "cam",
+								"child": "camera",
 								"transform-x": true,
 								"transform-y": true,
 								"transform-w": false,
@@ -91,9 +91,9 @@
 							"objectClass": "3DCamera",
 							"sid": 250101723359518,
 							"parameters": {
-								"x": "cam.X",
-								"y": "cam.Y",
-								"z": "cam.ZElevation+camHeight",
+								"x": "camera.X",
+								"y": "camera.Y",
+								"z": "camera.ZElevation+camHeight",
 								"which": "camera"
 							}
 						},

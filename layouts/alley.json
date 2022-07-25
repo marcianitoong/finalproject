@@ -5779,7 +5779,7 @@
 					}
 				},
 				{
-					"type": "cam",
+					"type": "camera",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -5853,35 +5853,6 @@
 						"y": -600,
 						"width": 137,
 						"height": 237,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "newspaper",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 27,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2116.715163644192,
-						"y": 361.7825595638866,
-						"width": 69,
-						"height": 69,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -15944,6 +15915,35 @@
 						],
 						"angle": 6.280396281573163,
 						"zElevation": 0.5
+					}
+				},
+				{
+					"type": "newspaper",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 48,
+						"y": 535,
+						"width": 69,
+						"height": 69,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 1
 					}
 				},
 				{

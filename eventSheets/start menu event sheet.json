@@ -33,12 +33,46 @@
 					"objectClass": "Mouse",
 					"sid": 764350850120415,
 					"parameters": {
-						"object": "Button"
+						"object": "StartButton"
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 826447426941590,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
 			"sid": 724800387677125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 405061332568901,
+					"parameters": {
+						"object": "StartButton"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 514287960485558,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 518621147861186
 		}
 	],
 	"sid": 607102885792781

@@ -74,10 +74,10 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Button",
+					"type": "StartButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "click",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -103,15 +103,15 @@
 					}
 				},
 				{
-					"type": "Button",
+					"type": "ControlsButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "click",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 303,
+					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -132,15 +132,15 @@
 					}
 				},
 				{
-					"type": "Button",
+					"type": "CreditsButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "click",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 304,
+					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
