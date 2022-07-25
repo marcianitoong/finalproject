@@ -1,0 +1,45 @@
+{
+	"name": "Start Menu Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 751299173354406
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 610087160663416,
+					"parameters": {
+						"audio-file": "Start Menu Music",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 381825410393147
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 764350850120415,
+					"parameters": {
+						"object": "Sprite18"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 724800387677125
+		}
+	],
+	"sid": 607102885792781
+}

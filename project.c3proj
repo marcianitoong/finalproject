@@ -63,6 +63,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Pathfinding",
 			"name": "Pathfinding",
@@ -154,7 +170,12 @@
 			"window",
 			"Sprite15",
 			"Sprite16",
-			"Sprite17"
+			"Text",
+			"Text2",
+			"Text3",
+			"Text4",
+			"Sprite18",
+			"Audio"
 		],
 		"subfolders": [
 			{
@@ -253,6 +274,7 @@
 	},
 	"layouts": {
 		"items": [
+			"Start Menu",
 			"Alley",
 			"First Clue",
 			"Second Clue",
@@ -269,7 +291,8 @@
 			"Second Clue Event Sheet",
 			"Third Clue Event Sheet",
 			"Bar Event Sheet",
-			"Hideout Event Sheet"
+			"Hideout Event Sheet",
+			"Start Menu Event Sheet"
 		],
 		"subfolders": []
 	},
@@ -283,7 +306,24 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Blues Music.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 508443478822261,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Start Menu Music.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 384877628727343,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
@@ -422,5 +462,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "Start Menu"
 }
