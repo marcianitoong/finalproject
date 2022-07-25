@@ -168,7 +168,7 @@
 				"items": [
 					"3DCamera",
 					"player",
-					"camera"
+					"cam"
 				],
 				"subfolders": [],
 				"name": "player"
@@ -176,7 +176,7 @@
 			{
 				"items": [
 					"boxes",
-					"dumpsterbottom",
+					"dumpsterbottem",
 					"dumpsterTop",
 					"Fence",
 					"newspaper"
@@ -241,7 +241,7 @@
 	"containers": [
 		{
 			"members": [
-				"dumpsterbottom",
+				"dumpsterbottem",
 				"dumpsterTop"
 			],
 			"selectMode": "normal"

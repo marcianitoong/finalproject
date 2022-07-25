@@ -40,7 +40,7 @@
 					"actions": [
 						{
 							"id": "set-position-to-another-object",
-							"objectClass": "camera",
+							"objectClass": "cam",
 							"sid": 744928249007222,
 							"parameters": {
 								"object": "player",
@@ -52,10 +52,10 @@
 							"objectClass": "3DCamera",
 							"sid": 939241140861957,
 							"parameters": {
-								"cam-x": "camera.X",
-								"cam-y": "camera.Y",
-								"cam-z": "camera.ZElevation+camHight",
-								"look-angle": "camera.Angle"
+								"cam-x": "cam.X",
+								"cam-y": "cam.Y",
+								"cam-z": "cam.ZElevation+camHight",
+								"look-angle": "cam.Angle"
 							}
 						},
 						{
@@ -63,7 +63,7 @@
 							"objectClass": "player",
 							"sid": 614654553232919,
 							"parameters": {
-								"child": "camera",
+								"child": "cam",
 								"transform-x": true,
 								"transform-y": true,
 								"transform-w": false,
@@ -91,9 +91,9 @@
 							"objectClass": "3DCamera",
 							"sid": 250101723359518,
 							"parameters": {
-								"x": "camera.X",
-								"y": "camera.Y",
-								"z": "camera.ZElevation+camHight",
+								"x": "cam.X",
+								"y": "cam.Y",
+								"z": "cam.ZElevation+camHight",
 								"which": "camera"
 							}
 						},
@@ -457,7 +457,7 @@
 									"objectClass": "ratBody",
 									"sid": 750432395480935,
 									"parameters": {
-										"object": "dumpsterbottom"
+										"object": "dumpsterbottem"
 									}
 								}
 							],
