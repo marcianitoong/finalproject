@@ -3,7 +3,7 @@
 	"events": [
 		{
 			"eventType": "variable",
-			"name": "camHight",
+			"name": "camHeight",
 			"type": "number",
 			"initialValue": "15",
 			"comment": "",
@@ -24,7 +24,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "camra",
+			"title": "camera",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -54,7 +54,7 @@
 							"parameters": {
 								"cam-x": "camera.X",
 								"cam-y": "camera.Y",
-								"cam-z": "camera.ZElevation+camHight",
+								"cam-z": "camera.ZElevation+camHeight",
 								"look-angle": "camera.Angle"
 							}
 						},
@@ -93,7 +93,7 @@
 							"parameters": {
 								"x": "camera.X",
 								"y": "camera.Y",
-								"z": "camera.ZElevation+camHight",
+								"z": "camera.ZElevation+camHeight",
 								"which": "camera"
 							}
 						},
