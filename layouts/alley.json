@@ -2589,7 +2589,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -2636,7 +2636,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -2683,7 +2683,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -5874,7 +5874,7 @@
 					}
 				},
 				{
-					"type": "cam",
+					"type": "camera",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -6113,7 +6113,7 @@
 					}
 				},
 				{
-					"type": "dumpsterbottem",
+					"type": "dumpsterbottom",
 					"properties": {
 						"shape": "box",
 						"z-height": 12,
@@ -16210,7 +16210,7 @@
 						1
 					],
 					"fog-density": 0.01,
-					"near-dist": 30
+					"near-dist": 100
 				}
 			}
 		}
