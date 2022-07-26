@@ -1,7 +1,7 @@
 {
 	"name": "bernBaralProp",
 	"plugin-id": "Sprite",
-	"sid": 123208288305458,
+	"sid": 176652790143570,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8215782,
+						"imageSpriteId": 8699005,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -43,7 +43,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 502982114716561,
+				"sid": 877186485519616,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

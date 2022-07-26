@@ -1,7 +1,7 @@
 {
 	"name": "bernBarralProp",
 	"plugin-id": "Shape3D",
-	"sid": 701316708972433,
+	"sid": 664999662495105,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6492267,
+						"imageSpriteId": 459152,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -30,7 +30,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2921465,
+						"imageSpriteId": 8688938,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -42,7 +42,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9644969,
+						"imageSpriteId": 1582643,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -54,7 +54,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2458005,
+						"imageSpriteId": 5679252,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -66,7 +66,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2996771,
+						"imageSpriteId": 6956727,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -78,12 +78,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5970716,
+						"imageSpriteId": 9526032,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 994387335619968,
+				"sid": 407259276451740,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

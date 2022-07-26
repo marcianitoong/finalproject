@@ -127,6 +127,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "softlight",
 			"name": "Soft light",
@@ -147,7 +155,20 @@
 	"objectTypes": {
 		"items": [
 			"Mouse",
-			"TiledBackground"
+			"TiledBackground",
+			"beerBottem",
+			"3DShape2",
+			"beerTop",
+			"3DShape7",
+			"bernBarralProp",
+			"3DShape",
+			"bernBaralProp",
+			"fierSprite",
+			"3DShape9",
+			"3DShape10",
+			"3DShape3",
+			"3DShape4",
+			"3DShape5"
 		],
 		"subfolders": [
 			{
@@ -280,6 +301,13 @@
 			"members": [
 				"dumpsterbottom",
 				"dumpsterTop"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"beerBottem",
+				"beerTop"
 			],
 			"selectMode": "normal"
 		}

@@ -1,16 +1,10 @@
 {
 	"name": "3DShape4",
 	"plugin-id": "Shape3D",
-	"sid": 705940380849016,
+	"sid": 777120198473095,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 407696790300823
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7013278,
+						"imageSpriteId": 4310501,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -36,7 +30,39 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6467253,
+						"imageSpriteId": 2587995,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 479,
+						"height": 556,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5143576,
+						"collisionPoly": {
+							"points": [
+								0.36116910229645094,
+								0.31115107913669066,
+								0.5,
+								0.1366906474820144,
+								0.9812108559498957,
+								0.014388489208633094,
+								0.8914405010438413,
+								0.5,
+								0.8914405010438413,
+								0.9064748201438849,
+								0.5,
+								0.9154676258992805,
+								0.17745302713987474,
+								0.8453237410071942,
+								0.1440501043841336,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -48,7 +74,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7738255,
+						"imageSpriteId": 3948484,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -60,7 +86,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2077672,
+						"imageSpriteId": 4735400,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -72,24 +98,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7470581,
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 120,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 895401,
+						"imageSpriteId": 7181259,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 420501645853474,
+				"sid": 723477832373410,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
