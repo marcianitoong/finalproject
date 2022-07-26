@@ -20,173 +20,59 @@
 						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
-<<<<<<< HEAD
-					}
-				},
-				{
-					"id": "set-cursor-style",
-					"objectClass": "Mouse",
-					"sid": 808265951284011,
-					"parameters": {
-						"cursor-style": "crosshair"
-=======
->>>>>>> parent of 7a88dc4 (Start Menu Done)
 					}
 				}
 			],
 			"sid": 381825410393147
 		},
 		{
-<<<<<<< HEAD
-			"eventType": "group",
-			"disabled": false,
-			"title": "Menu select",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 471160906354366,
-							"parameters": {
-								"object": "StartButton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation-frame",
-							"objectClass": "StartButton",
-							"sid": 538955876642741,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 664464043531121
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 642065356861447,
-							"parameters": {
-								"object": "ControlsButton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation-frame",
-							"objectClass": "ControlsButton",
-							"sid": 122978131391405,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 461721905246856
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 834698766810876,
-							"parameters": {
-								"object": "CreditsButton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation-frame",
-							"objectClass": "CreditsButton",
-							"sid": 661451231323547,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 648608402958791
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 668713811575207,
-							"parameters": {
-								"object": "Sprite"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation-frame",
-							"objectClass": "ControlsButton",
-							"sid": 336469713577545,
-							"parameters": {
-								"frame-number": "1"
-							}
-						},
-						{
-							"id": "set-animation-frame",
-							"objectClass": "CreditsButton",
-							"sid": 284245707010177,
-							"parameters": {
-								"frame-number": "1"
-							}
-						},
-						{
-							"id": "set-animation-frame",
-							"objectClass": "StartButton",
-							"sid": 336530046190476,
-							"parameters": {
-								"frame-number": "1"
-							}
-						}
-					],
-					"sid": 500369659403848
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-click",
-							"objectClass": "Mouse",
-							"sid": 471867041952597,
-							"parameters": {
-								"mouse-button": "left",
-								"click-type": "clicked"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 451258837911614,
-							"parameters": {
-								"audio-file": "mixkit-fast-double-click-on-mouse-275",
-								"loop": "not-looping",
-								"volume": "0",
-								"tag-optional": "\"\""
-							}
-						}
-					],
-					"sid": 607471081557832
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 764350850120415,
+					"parameters": {
+						"object": "StartButton"
+					}
 				}
 			],
-			"sid": 972533487784098
-=======
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 826447426941590,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 724800387677125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 405061332568901,
+					"parameters": {
+						"object": "StartButton"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 514287960485558,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 518621147861186
 			"eventType": "block",
 			"conditions": [
 				{
