@@ -146,7 +146,8 @@
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
 		"items": [
-			"Mouse"
+			"Mouse",
+			"TiledBackground"
 		],
 		"subfolders": [
 			{
