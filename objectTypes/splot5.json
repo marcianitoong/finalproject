@@ -5,12 +5,7 @@
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "tintmask",
-			"name": "TintMask"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{

@@ -5,16 +5,7 @@
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "replacecolor",
-			"name": "ReplaceColor"
-		},
-		{
-			"effectId": "tintmask",
-			"name": "TintMask"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
