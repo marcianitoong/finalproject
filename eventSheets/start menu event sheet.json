@@ -20,6 +20,7 @@
 						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
+<<<<<<< HEAD
 					}
 				},
 				{
@@ -28,12 +29,15 @@
 					"sid": 808265951284011,
 					"parameters": {
 						"cursor-style": "crosshair"
+=======
+>>>>>>> parent of 7a88dc4 (Start Menu Done)
 					}
 				}
 			],
 			"sid": 381825410393147
 		},
 		{
+<<<<<<< HEAD
 			"eventType": "group",
 			"disabled": false,
 			"title": "Menu select",
@@ -182,6 +186,55 @@
 				}
 			],
 			"sid": 972533487784098
+=======
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 764350850120415,
+					"parameters": {
+						"object": "StartButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 826447426941590,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 724800387677125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 405061332568901,
+					"parameters": {
+						"object": "StartButton"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "StartButton",
+					"sid": 514287960485558,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 518621147861186
+>>>>>>> parent of 7a88dc4 (Start Menu Done)
 		}
 	],
 	"sid": 607102885792781

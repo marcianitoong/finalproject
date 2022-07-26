@@ -341,24 +341,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "mixkit-fast-double-click-on-mouse-275.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 819091975355320,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Mouse Sound Effect 4k.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 986062800968420,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
