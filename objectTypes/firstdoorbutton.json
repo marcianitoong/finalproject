@@ -1,0 +1,57 @@
+{
+	"name": "firstdoorbutton",
+	"plugin-id": "Sprite",
+	"sid": 481490992439869,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 70,
+						"height": 70,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7950999,
+						"collisionPoly": {
+							"points": [
+								0.45714285714285713,
+								0.45714285714285713,
+								0.5,
+								0.05714285714285714,
+								0.5285714285714286,
+								0.45714285714285713,
+								0.6571428571428571,
+								0.5,
+								0.9285714285714286,
+								0.9285714285714286,
+								0.5,
+								0.9857142857142858,
+								0.05714285714285714,
+								0.9285714285714286,
+								0.32857142857142857,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 209880479931206,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

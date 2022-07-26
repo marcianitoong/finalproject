@@ -56,6 +56,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
@@ -153,28 +161,25 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [
-			"Mouse",
-			"TiledBackground",
-			"beerBottem",
-			"3DShape2",
-			"beerTop",
-			"3DShape7",
-			"bernBarralProp",
-			"3DShape",
-			"bernBaralProp",
-			"fierSprite",
-			"3DShape9",
-			"3DShape10",
-			"3DShape3",
-			"3DShape4",
-			"3DShape5"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
 					"brickfloor",
-					"ShadowLight"
+					"ShadowLight",
+					"3DShape",
+					"3DShape10",
+					"3DShape2",
+					"3DShape3",
+					"3DShape4",
+					"3DShape5",
+					"3DShape7",
+					"3DShape9",
+					"beerBottem",
+					"beerTop",
+					"bernBaralProp",
+					"bernBarralProp",
+					"fierSprite"
 				],
 				"subfolders": [
 					{
@@ -280,7 +285,14 @@
 					"Controls",
 					"Headline",
 					"newspaperIntro",
-					"Credits"
+					"Credits",
+					"ClueBackground",
+					"ClueTilemap",
+					"Detective",
+					"firstdoor",
+					"firstdoorbutton",
+					"Spikes",
+					"Fall"
 				],
 				"subfolders": [],
 				"name": "2D"
@@ -288,7 +300,8 @@
 			{
 				"items": [
 					"Audio",
-					"Keyboard"
+					"Keyboard",
+					"Mouse"
 				],
 				"subfolders": [],
 				"name": "Both"
