@@ -7,72 +7,311 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 751299173354406
+					"sid": 134394763783326
 				}
 			],
 			"actions": [
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 610087160663416,
+					"sid": 685390876307434,
 					"parameters": {
 						"audio-file": "Start Menu Music",
 						"loop": "not-looping",
 						"volume": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"music\""
 					}
 				}
 			],
 			"sid": 381825410393147
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "Start Button",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 764350850120415,
-					"parameters": {
-						"object": "StartButton"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 470230756912777,
+							"parameters": {
+								"object": "StartButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "StartButton",
+							"sid": 356085984667012,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 878540862035775
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 986784754224225,
+							"parameters": {
+								"object": "StartButton"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "StartButton",
+							"sid": 503381044915209,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 268393571691860
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 619600829768580,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "StartButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 818289309441354,
+							"parameters": {
+								"layout": "Newspaper"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 649837786869240,
+							"parameters": {
+								"audio-file": "StartMenuClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 335040208597497
 				}
 			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "StartButton",
-					"sid": 826447426941590,
-					"parameters": {
-						"frame-number": "1"
-					}
-				}
-			],
-			"sid": 724800387677125
+			"sid": 555116926915153
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "Controls Button",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 405061332568901,
-					"parameters": {
-						"object": "StartButton"
-					},
-					"isInverted": true
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 779528824546331,
+							"parameters": {
+								"object": "ControlsButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "ControlsButton",
+							"sid": 843524644806489,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 833581522212564
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 401323644397018,
+							"parameters": {
+								"object": "ControlsButton"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "ControlsButton",
+							"sid": 204499369641025,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 275723777687007
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 438272284053900,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "ControlsButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 552250015651356,
+							"parameters": {
+								"layout": "Controls"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 418067485673495,
+							"parameters": {
+								"audio-file": "StartMenuClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 308794419187830
 				}
 			],
-			"actions": [
+			"sid": 292549519772897
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Credits Button",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "set-animation-frame",
-					"objectClass": "StartButton",
-					"sid": 514287960485558,
-					"parameters": {
-						"frame-number": "0"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 475911717946115,
+							"parameters": {
+								"object": "CreditsButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "CreditsButton",
+							"sid": 339788185262282,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 639824923754174
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 289765510971831,
+							"parameters": {
+								"object": "CreditsButton"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "CreditsButton",
+							"sid": 739254225529752,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 975319419303728
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 491452763146309,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "CreditsButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 246986900939071,
+							"parameters": {
+								"layout": "Credits"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 527744902197466,
+							"parameters": {
+								"audio-file": "StartMenuClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 378814747537036
 				}
 			],
-			"sid": 518621147861186
+			"sid": 607862998276392
 		}
 	],
 	"sid": 607102885792781

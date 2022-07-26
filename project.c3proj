@@ -252,7 +252,13 @@
 					"CreditsText",
 					"StartButton",
 					"StartText",
-					"TitleText"
+					"TitleText",
+					"Body",
+					"Continue",
+					"Controls",
+					"Headline",
+					"newspaperIntro",
+					"Credits"
 				],
 				"subfolders": [],
 				"name": "2D"
@@ -289,7 +295,10 @@
 			"Second Clue",
 			"Third Clue",
 			"Bar",
-			"Hideout"
+			"Hideout",
+			"Newspaper",
+			"Controls",
+			"Credits"
 		],
 		"subfolders": []
 	},
@@ -301,7 +310,10 @@
 			"Third Clue Event Sheet",
 			"Bar Event Sheet",
 			"Hideout Event Sheet",
-			"Start Menu Event Sheet"
+			"Start Menu Event Sheet",
+			"Newspaper Event Sheet",
+			"Controls Event Sheet",
+			"Credits Event Sheet"
 		],
 		"subfolders": []
 	},
@@ -311,7 +323,24 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "NewspaperFlip.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 183652190860561,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "StartMenuClick.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 525647489161487,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
