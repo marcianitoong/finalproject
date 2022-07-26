@@ -1,0 +1,57 @@
+{
+	"name": "fierSprite",
+	"plugin-id": "Sprite",
+	"sid": 104764069369104,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 339,
+						"height": 509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7594212,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9970501474926253,
+								0,
+								0.9970501474926253,
+								0.5,
+								0.9970501474926253,
+								0.9980353634577603,
+								0.5,
+								0.9980353634577603,
+								0,
+								0.9980353634577603,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 945696341585716,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

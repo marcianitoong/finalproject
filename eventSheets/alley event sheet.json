@@ -326,9 +326,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 681918578546394,
+							"sid": 107435194507941,
 							"parameters": {
-								"interval-seconds": "random(3,6)"
+								"interval-seconds": "1"
 							}
 						}
 					],
@@ -471,9 +471,67 @@
 							"sid": 909307016122188
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 991177730896840
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 253528686300759,
+							"parameters": {
+								"audio-file": "Mouse Sound Effect 4k",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 486650916101096
 				}
 			],
 			"sid": 596374826460202
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "music",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 985281944301104
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 678266520134418,
+							"parameters": {
+								"audio-file": "Blues Music",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 439368597216225
+				}
+			],
+			"sid": 428848584421954
 		}
 	],
 	"sid": 318310682169119

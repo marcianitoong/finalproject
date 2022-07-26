@@ -128,6 +128,22 @@
 		},
 		{
 			"type": "effect",
+			"id": "replacecolor",
+			"name": "Replace color",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "tintmask",
+			"name": "Tint mask",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
 			"id": "softlight",
 			"name": "Soft light",
 			"author": "Scirra",
@@ -146,7 +162,21 @@
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
 		"items": [
-			"Mouse"
+			"Mouse",
+			"bernBaralProp",
+			"bernBarralProp",
+			"fierSprite",
+			"3DShape",
+			"Sprite",
+			"3DShape2",
+			"3DShape3",
+			"3DShape4",
+			"3DShape5",
+			"3DShape6",
+			"3DShape7",
+			"3DShape8",
+			"3DShape9",
+			"3DShape10"
 		],
 		"subfolders": [
 			{
@@ -252,13 +282,7 @@
 					"CreditsText",
 					"StartButton",
 					"StartText",
-					"TitleText",
-					"Body",
-					"Continue",
-					"Controls",
-					"Headline",
-					"newspaperIntro",
-					"Credits"
+					"TitleText"
 				],
 				"subfolders": [],
 				"name": "2D"
@@ -295,10 +319,7 @@
 			"Second Clue",
 			"Third Clue",
 			"Bar",
-			"Hideout",
-			"Newspaper",
-			"Controls",
-			"Credits"
+			"Hideout"
 		],
 		"subfolders": []
 	},
@@ -310,10 +331,7 @@
 			"Third Clue Event Sheet",
 			"Bar Event Sheet",
 			"Hideout Event Sheet",
-			"Start Menu Event Sheet",
-			"Newspaper Event Sheet",
-			"Controls Event Sheet",
-			"Credits Event Sheet"
+			"Start Menu Event Sheet"
 		],
 		"subfolders": []
 	},
@@ -325,17 +343,17 @@
 		"sound": {
 			"items": [
 				{
-					"name": "NewspaperFlip.webm",
+					"name": "mixkit-fast-double-click-on-mouse-275.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 183652190860561,
+					"sid": 819091975355320,
 					"file-info": {
 						"purpose": "none"
 					}
 				},
 				{
-					"name": "StartMenuClick.webm",
+					"name": "Mouse Sound Effect 4k.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 525647489161487,
+					"sid": 986062800968420,
 					"file-info": {
 						"purpose": "none"
 					}

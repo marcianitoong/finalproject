@@ -1,0 +1,57 @@
+{
+	"name": "bernBaralProp",
+	"plugin-id": "Sprite",
+	"sid": 123208288305458,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 396,
+						"height": 585,
+						"originX": 0.4823232323232323,
+						"originY": 0.4752136752136752,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8215782,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.4823232323232323,
+								0,
+								1,
+								0,
+								1,
+								0.4752136752136752,
+								1,
+								1,
+								0.4823232323232323,
+								1,
+								0,
+								1,
+								0,
+								0.4752136752136752
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 502982114716561,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
