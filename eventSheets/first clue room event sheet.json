@@ -4,7 +4,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "For Any 2D Level",
+			"title": "For Any 2D Level (First)",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
