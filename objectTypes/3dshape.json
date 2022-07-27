@@ -1,16 +1,11 @@
 {
-	"name": "fier",
+	"name": "3DShape",
 	"plugin-id": "Shape3D",
 	"sid": 540616373747458,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "hardlight",
-			"name": "HardLight"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{

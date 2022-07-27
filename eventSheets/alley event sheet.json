@@ -474,46 +474,6 @@
 				}
 			],
 			"sid": 596374826460202
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "bern barrel",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "every-tick",
-							"objectClass": "System",
-							"sid": 544077896099880
-						}
-					],
-					"actions": [
-						{
-							"id": "rotate-toward-angle",
-							"objectClass": "fier",
-							"sid": 514171910351378,
-							"parameters": {
-								"degrees": "1",
-								"angle": "fier.Angle+1"
-							}
-						},
-						{
-							"id": "set-z-height",
-							"objectClass": "fier",
-							"sid": 131792827106436,
-							"parameters": {
-								"z-height": "fier.ZHeight+random(-0.03,0.03)"
-							}
-						}
-					],
-					"sid": 533514311555355
-				}
-			],
-			"sid": 394317998988139
 		}
 	],
 	"sid": 318310682169119

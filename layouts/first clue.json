@@ -224,7 +224,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 522,
+					"uid": 521,
 					"instanceVariables": {},
 					"behaviors": {
 						"ScrollTo": {
