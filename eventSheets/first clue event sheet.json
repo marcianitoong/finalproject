@@ -1,28 +1,5 @@
 {
 	"name": "First Clue Event Sheet",
-	"events": [
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 290073340736650
-				}
-			],
-			"actions": [
-				{
-					"id": "set-position-to-another-object",
-					"objectClass": "Detective",
-					"sid": 948373044134763,
-					"parameters": {
-						"object": "playerbox",
-						"image-point-optional": "0"
-					}
-				}
-			],
-			"sid": 487062677251160
-		}
-	],
+	"events": [],
 	"sid": 988843170121214
 }
