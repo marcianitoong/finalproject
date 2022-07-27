@@ -384,7 +384,10 @@
 			"Newspaper",
 			"Controls",
 			"Credits",
-			"First Clue"
+			"First Clue",
+			"Second Clue",
+			"Third Clue",
+			"End Screen"
 		],
 		"subfolders": []
 	},
@@ -400,7 +403,10 @@
 			"Newspaper Event Sheet",
 			"Controls Event Sheet",
 			"Credits Event Sheet",
-			"First Clue Event Sheet"
+			"First Clue Event Sheet",
+			"Second Clue Event Sheet",
+			"Third Clue Event Sheet",
+			"End Screen Event Sheet"
 		],
 		"subfolders": []
 	},

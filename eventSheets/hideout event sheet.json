@@ -82,9 +82,17 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 880525049016930,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
 							"objectClass": "playerbox",
-							"sid": 875117413677314,
+							"sid": 145900390662970,
 							"parameters": {
 								"object": "firstbutton"
 							}
@@ -94,26 +102,109 @@
 						{
 							"id": "destroy",
 							"objectClass": "firstdoor",
-							"sid": 938133554936235
+							"sid": 649242962241437
 						},
 						{
-							"id": "set-animation-frame",
+							"id": "set-collisions-enabled",
 							"objectClass": "firstbutton",
-							"sid": 756995002343813,
+							"sid": 126480248813996,
 							"parameters": {
-								"frame-number": "0"
+								"collisions": "disabled"
 							}
 						}
 					],
-					"sid": 403216852945225
+					"sid": 761165630713561
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "playerbox",
-							"sid": 836513496503228,
+							"sid": 134807763021316,
+							"parameters": {
+								"object": "firstbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "firstbutton",
+							"sid": 959125329445781,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 130469302055292
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "firstdoor",
+							"sid": 687574209115456
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "firstbutton",
+							"sid": 736432675494654,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 394907663709215
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 603588484515020,
+							"parameters": {
+								"object": "firstbutton"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "firstdoor",
+							"sid": 251396907319397
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "firstbutton",
+							"sid": 737879479742977,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 354750544470319
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 909284184693890,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 907857973231498,
 							"parameters": {
 								"object": "secondbutton"
 							}
@@ -126,11 +217,11 @@
 							"sid": 567769401608496
 						},
 						{
-							"id": "set-animation-frame",
+							"id": "set-collisions-enabled",
 							"objectClass": "secondbutton",
-							"sid": 429756682197521,
+							"sid": 446433111640545,
 							"parameters": {
-								"frame-number": "0"
+								"collisions": "disabled"
 							}
 						}
 					],
@@ -140,9 +231,92 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "playerbox",
-							"sid": 714748291891132,
+							"sid": 302340776465245,
+							"parameters": {
+								"object": "secondbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "secondbutton",
+							"sid": 803941726921909,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 706671986686908
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "seconddoor",
+							"sid": 747022747727707
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "secondbutton",
+							"sid": 952013118866585,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 963589957545879
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 323752267213722,
+							"parameters": {
+								"object": "secondbutton"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "seconddoor",
+							"sid": 739892152473177
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "secondbutton",
+							"sid": 885290656023022,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 923298750309532
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 739478137895462,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 255722664592428,
 							"parameters": {
 								"object": "thirdbutton"
 							}
@@ -155,11 +329,11 @@
 							"sid": 829233300683556
 						},
 						{
-							"id": "set-animation-frame",
+							"id": "set-collisions-enabled",
 							"objectClass": "thirdbutton",
-							"sid": 872816521631782,
+							"sid": 949687916481900,
 							"parameters": {
-								"frame-number": "0"
+								"collisions": "disabled"
 							}
 						}
 					],
@@ -169,9 +343,92 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "is-overlapping-another-object",
 							"objectClass": "playerbox",
-							"sid": 922755854195274,
+							"sid": 735333559953027,
+							"parameters": {
+								"object": "thirdbutton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "thirdbutton",
+							"sid": 829399184181998,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 787440219065473
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "thirddoor",
+							"sid": 900011584945265
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "thirdbutton",
+							"sid": 802278668567844,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 162327138857916
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 804948320596301,
+							"parameters": {
+								"object": "thirdbutton"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "thirddoor",
+							"sid": 676917269160317
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "thirdbutton",
+							"sid": 160382650932579,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 925988921824437
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 271086977723320,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 746815833500044,
 							"parameters": {
 								"object": "fourthbutton"
 							}
@@ -184,15 +441,90 @@
 							"sid": 458991265506885
 						},
 						{
+							"id": "set-collisions-enabled",
+							"objectClass": "fourthbutton",
+							"sid": 454733742397026,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 613172599309087
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 149732053628707,
+							"parameters": {
+								"object": "fourthbutton"
+							}
+						}
+					],
+					"actions": [
+						{
 							"id": "set-animation-frame",
 							"objectClass": "fourthbutton",
-							"sid": 669667867906148,
+							"sid": 329355450965831,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 814763120594094
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "fourthdoor",
+							"sid": 722970840841053
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "fourthbutton",
+							"sid": 284260180447417,
 							"parameters": {
 								"frame-number": "0"
 							}
 						}
 					],
-					"sid": 613172599309087
+					"sid": 789021655950484
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 755511750203534,
+							"parameters": {
+								"object": "fourthbutton"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "fourthdoor",
+							"sid": 343564448946350
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "fourthbutton",
+							"sid": 829060705726091,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 807204993419208
 				},
 				{
 					"eventType": "block",

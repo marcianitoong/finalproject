@@ -82,9 +82,17 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 994272658102037,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
 							"objectClass": "playerbox",
-							"sid": 268376378489721,
+							"sid": 488780854676484,
 							"parameters": {
 								"object": "firstbutton"
 							}
@@ -97,15 +105,90 @@
 							"sid": 890452096724437
 						},
 						{
+							"id": "set-collisions-enabled",
+							"objectClass": "firstbutton",
+							"sid": 619113817168919,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 128424192855396
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 989589065603530,
+							"parameters": {
+								"object": "firstbutton"
+							}
+						}
+					],
+					"actions": [
+						{
 							"id": "set-animation-frame",
 							"objectClass": "firstbutton",
-							"sid": 596497525793275,
+							"sid": 545753342372436,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 645559286584822
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "firstdoor",
+							"sid": 237563324686098
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "firstbutton",
+							"sid": 796452312403985,
 							"parameters": {
 								"frame-number": "0"
 							}
 						}
 					],
-					"sid": 128424192855396
+					"sid": 729315169039534
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerbox",
+							"sid": 829518866039898,
+							"parameters": {
+								"object": "firstbutton"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "firstdoor",
+							"sid": 362672099701676
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "firstbutton",
+							"sid": 765932365547932,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 448220813548263
 				},
 				{
 					"eventType": "block",
