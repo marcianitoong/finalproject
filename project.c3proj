@@ -350,7 +350,8 @@
 					"textbox",
 					"jonesgambitplayerbox",
 					"jonesgambit",
-					"hideoutend"
+					"hideoutend",
+					"thirdcluebox"
 				],
 				"subfolders": [],
 				"name": "2D"

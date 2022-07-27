@@ -2,10 +2,44 @@
 	"name": "Third Clue Room",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "background",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "ClueBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 412,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1704,
+						"height": 956,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 579204573013309,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -22,7 +56,159 @@
 				0.3686274509803922,
 				1
 			],
-			"isTransparent": false,
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "obstacles",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "ClueTilemap",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 21,
+						"tile-height": 21,
+						"tile-x-offset": 2,
+						"tile-y-offset": 2,
+						"tile-x-spacing": 2,
+						"tile-y-spacing": 2,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 413,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 81,
+							"height": 48,
+							"max-width": 293,
+							"max-height": 98,
+							"data": "724,44x694,754,52x0,20x695,755,5x0,695,730,2x695,14x0,695,755,52x0,20x695,755,5x0,4x695,14x0,695,755,52x0,19x695,730,755,5x0,4x695,14x0,695,755,52x0,18x695,730,695,755,5x0,695,730,2x695,14x0,695,755,52x0,20x695,755,5x0,2x695,730,695,14x0,695,755,52x0,20x695,755,5x0,4x695,14x0,695,755,52x0,20x695,755,5x0,4x695,14x0,695,755,52x0,20x695,755,23x0,730,755,52x0,17x695,730,2x695,755,23x0,695,755,52x0,18x695,2x730,755,23x0,695,755,52x0,20x695,755,23x0,695,755,52x0,20x695,755,23x0,695,755,52x0,20x695,755,23x0,696,756,52x0,16x695,730,3x695,755,77x0,20x695,755,77x0,19x695,730,755,77x0,20x695,755,77x0,20x695,755,77x0,18x695,730,695,755,22x0,2x694,754,52x0,19x695,730,755,22x0,2x695,755,52x0,18x695,730,695,755,22x0,730,695,755,52x0,20x695,755,22x0,2x695,755,52x0,20x695,755,22x0,2x695,755,52x0,20x695,755,23x0,695,755,52x0,20x695,755,23x0,730,755,52x0,20x695,755,23x0,695,755,52x0,20x695,755,23x0,695,755,52x0,20x695,755,22x0,2x695,755,52x0,20x695,755,22x0,2x696,755,52x0,19x695,730,755,77x0,20x695,755,77x0,17x695,730,2x695,755,77x0,20x695,755,77x0,19x695,730,755,23x0,724,754,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,19x695,730,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,18x695,730,695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,20x695,755,23x0,725,755,52x0,19x695,730,755,23x0,726,756,52x0,20x695,755,77x0,20x695,755,77x0,20x695,755,77x0,19x695,730,755,77x0,20x695,755,10x0,724,5x694,754,6x0,724,754,52x0,20x695,755,10x0,695,730,695,730,2x695,755,6x0,725,755,52x0,20x695,755,10x0,2x695,730,3x695,755,6x0,725,755,52x0,18x695,730,695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,3x695,730,695,730,755,6x0,725,755,52x0,19x695,730,755,10x0,4x695,730,695,755,6x0,725,755,52x0,17x695,730,2x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,4x695,730,695,755,6x0,725,755,52x0,20x695,755,10x0,3x695,730,2x695,755,6x0,725,755,52x0,20x695,755,10x0,4x695,730,695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,18x695,730,695,755,10x0,6x695,755,6x0,725,755,52x0,17x695,730,2x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,4x695,730,695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,17x695,730,2x695,755,10x0,6x695,755,6x0,725,755,52x0,18x695,730,695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,4x695,730,695,755,6x0,725,755,52x0,20x695,755,10x0,3x695,730,695,730,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,20x695,755,10x0,6x695,755,6x0,725,755,52x0,18x695,730,695,755,10x0,695,730,4x695,755,6x0,725,755,52x0,19x695,730,695,10x694,5x695,730,755,6x0,725,755,52x0,20x695,730,5x695,730,2x695,730,5x695,730,695,755,6x0,725,755,52x0,4x695,33x696,756,6x0,725,756,97x0,755,20730x0"
+						},
+						"tile-width": 21,
+						"tile-height": 21,
+						"tile-x-offset": 2,
+						"tile-y-offset": 2,
+						"tile-x-spacing": 2,
+						"tile-y-spacing": 2
+					},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1707,
+						"height": 1015,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 679031008432532,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "players and buttons",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "thirdcluebox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 414,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -144,
+						"y": 827,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 675963669598769,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
