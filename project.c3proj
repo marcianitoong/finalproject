@@ -168,6 +168,14 @@
 		},
 		{
 			"type": "effect",
+			"id": "hardlight",
+			"name": "Hard light",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
 			"id": "fogexponential",
 			"name": "Fog (exponential)",
 			"author": "Scirra",
@@ -183,7 +191,7 @@
 				"items": [
 					"brickfloor",
 					"ShadowLight",
-					"3DShape",
+					"fier",
 					"3DShape10",
 					"3DShape2",
 					"3DShape3",
