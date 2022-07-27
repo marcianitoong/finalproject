@@ -143,6 +143,22 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "softlight",
 			"name": "Soft light",
@@ -292,7 +308,8 @@
 					"firstdoor",
 					"firstdoorbutton",
 					"Spikes",
-					"Fall"
+					"Fall",
+					"playerbox"
 				],
 				"subfolders": [],
 				"name": "2D"

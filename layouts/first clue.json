@@ -56,7 +56,7 @@
 				0.3686274509803922,
 				1
 			],
-			"isTransparent": false,
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
@@ -73,83 +73,6 @@
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
-				{
-					"type": "ClueTilemap",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 21,
-						"tile-height": 21,
-						"tile-x-offset": 2,
-						"tile-y-offset": 2,
-						"tile-x-spacing": 2,
-						"tile-y-spacing": 2,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 516,
-					"instanceVariables": {},
-					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 81,
-							"height": 45,
-							"max-width": 221,
-							"max-height": 95,
-							"data": "20995x0"
-						},
-						"tile-width": 21,
-						"tile-height": 21,
-						"tile-x-offset": 2,
-						"tile-y-offset": 2,
-						"tile-x-spacing": 2,
-						"tile-y-spacing": 2
-					},
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 1708,
-						"height": 960,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Detective",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 517,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 45,
-						"y": 910,
-						"width": 36,
-						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
 				{
 					"type": "firstdoor",
 					"properties": {
@@ -238,22 +161,126 @@
 					}
 				},
 				{
-					"type": "ControlsButton",
+					"type": "ClueTilemap",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "click",
+						"tile-width": 21,
+						"tile-height": 21,
+						"tile-x-offset": 2,
+						"tile-y-offset": 2,
+						"tile-x-spacing": 2,
+						"tile-y-spacing": 2,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 516,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 81,
+							"height": 48,
+							"max-width": 226,
+							"max-height": 100,
+							"data": "45x694,754,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,95x0,725,3x695,755,94x0,724,4x695,755,94x0,726,4x696,756,21554x0"
+						},
+						"tile-width": 21,
+						"tile-height": 21,
+						"tile-x-offset": 2,
+						"tile-y-offset": 2,
+						"tile-x-spacing": 2,
+						"tile-y-spacing": 2
+					},
+					"world": {
+						"x": 5.945454545454545,
+						"y": 1,
+						"width": 1702.0545454545456,
+						"height": 1024.409090909091,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "playerbox",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 521,
 					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 30.073108185396976,
+						"y": 827,
+						"width": 36,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Detective",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 517,
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 775,
-						"y": 566,
-						"width": 172.47818540297928,
-						"height": 57.49272846765976,
+						"x": 32,
+						"y": 826,
+						"width": 36,
+						"height": 48,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -284,15 +311,15 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 0,
-			"parallaxY": 0,
+			"parallaxX": 1,
+			"parallaxY": 1,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",
 			"drawOrder": "z-order",
 			"useRenderCells": false,
 			"blendMode": "normal",
-			"zElevation": 0,
+			"zElevation": 1,
 			"global": false
 		},
 		{
@@ -325,7 +352,7 @@
 			"drawOrder": "z-order",
 			"useRenderCells": false,
 			"blendMode": "normal",
-			"zElevation": 0,
+			"zElevation": 1,
 			"global": false
 		}
 	],
