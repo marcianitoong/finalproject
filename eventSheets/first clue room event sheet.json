@@ -257,7 +257,32 @@
 							}
 						}
 					],
-					"sid": 515807657128867
+					"sid": 515807657128867,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "playerbox",
+									"sid": 243789220956290,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Detective",
+									"sid": 181137466006680,
+									"parameters": {
+										"animation": "\"walk\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 806334886370318
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -281,6 +306,29 @@
 						}
 					],
 					"sid": 669851345858530
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fall",
+							"objectClass": "playerbox",
+							"sid": 632557765441885,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Detective",
+							"sid": 410889511915513,
+							"parameters": {
+								"animation": "\"jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 246671408018428
 				},
 				{
 					"eventType": "block",

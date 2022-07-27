@@ -1,5 +1,35 @@
 {
 	"name": "End Screen Event Sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 613297735520194,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-persisted-objects",
+					"objectClass": "System",
+					"sid": 540339000968302
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 408330401054704,
+					"parameters": {
+						"layout": "Start Menu"
+					}
+				}
+			],
+			"sid": 550804430675383
+		}
+	],
 	"sid": 510219834549100
 }

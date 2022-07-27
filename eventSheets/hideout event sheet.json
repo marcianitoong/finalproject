@@ -64,6 +64,12 @@
 							"parameters": {
 								"key": 68
 							}
+						},
+						{
+							"id": "is-enabled",
+							"objectClass": "playerbox",
+							"sid": 777656659779471,
+							"behaviorType": "Platform"
 						}
 					],
 					"actions": [
@@ -593,7 +599,32 @@
 							}
 						}
 					],
-					"sid": 345419112718529
+					"sid": 345419112718529,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "playerbox",
+									"sid": 315814688597271,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Detective",
+									"sid": 689300527556988,
+									"parameters": {
+										"animation": "\"walk\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 293928993267867
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -617,6 +648,29 @@
 						}
 					],
 					"sid": 607260813102026
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-fall",
+							"objectClass": "playerbox",
+							"sid": 744041706673217,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Detective",
+							"sid": 784470917564349,
+							"parameters": {
+								"animation": "\"jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 486809908503457
 				},
 				{
 					"eventType": "block",
@@ -719,6 +773,236 @@
 				}
 			],
 			"sid": 145093095362911
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Hideout Only",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 150341390584953
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "jonesgambit",
+							"sid": 966860767860966,
+							"parameters": {
+								"object": "jonesgambitplayerbox",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 616081206185647
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 485333991263718,
+							"parameters": {
+								"object": "Spikes"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 199343521814756
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 628971444693500,
+							"parameters": {
+								"x": "44.425052",
+								"y": "52.051597"
+							}
+						}
+					],
+					"sid": 355432160190820
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 607729787456240,
+							"parameters": {
+								"object": "hideoutend"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "playerbox",
+							"sid": 622540575704393,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Detective",
+							"sid": 339621326715372,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "jonesgambit",
+							"sid": 428276533675294,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "hideoutend",
+							"sid": 211762686102843,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "textbox",
+							"sid": 243447921535099,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "jonesgambittext",
+							"sid": 265354888398689,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Detective",
+							"sid": 565771527367645,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Continue",
+							"sid": 190233937705753,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 714853694384914
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 928655193213969,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-visible",
+							"objectClass": "Continue",
+							"sid": 577839205368449
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "jonesgambitplayerbox",
+							"sid": 866295004284907,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "jonesgambitplayerbox",
+							"sid": 866989451540922,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "jonesgambit",
+							"sid": 107827278644534,
+							"parameters": {
+								"animation": "\"walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "textbox",
+							"sid": 870384584118504
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Continue",
+							"sid": 486078821358015
+						},
+						{
+							"id": "destroy",
+							"objectClass": "jonesgambittext",
+							"sid": 897743246149386
+						}
+					],
+					"sid": 446057390796734
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "jonesgambitplayerbox",
+							"sid": 181866284603451,
+							"parameters": {
+								"object": "playerbox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 849211622520471,
+							"parameters": {
+								"layout": "End Screen"
+							}
+						}
+					],
+					"sid": 123784628198128
+				}
+			],
+			"sid": 579904936231883
 		}
 	],
 	"sid": 263456834433702

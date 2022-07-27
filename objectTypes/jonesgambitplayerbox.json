@@ -1,14 +1,14 @@
 {
-	"name": "fourthdoor",
+	"name": "jonesgambitplayerbox",
 	"plugin-id": "Sprite",
-	"sid": 398280983027613,
+	"sid": 413394804873098,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 389821661279048
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 151876465234747
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3700342,
+						"imageSpriteId": 3413956,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 486245914713752,
+				"sid": 688158738144403,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

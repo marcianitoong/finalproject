@@ -167,6 +167,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "softlight",
 			"name": "Soft light",
@@ -193,7 +201,9 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Text"
+		],
 		"subfolders": [
 			{
 				"items": [
@@ -335,7 +345,12 @@
 					"thirdbutton",
 					"thirddoor",
 					"fourthbutton",
-					"fourthdoor"
+					"fourthdoor",
+					"jonesgambittext",
+					"textbox",
+					"jonesgambitplayerbox",
+					"jonesgambit",
+					"hideoutend"
 				],
 				"subfolders": [],
 				"name": "2D"

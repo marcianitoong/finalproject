@@ -1,35 +1,41 @@
 {
-	"name": "fourthdoor",
+	"name": "textbox",
 	"plugin-id": "Sprite",
-	"sid": 398280983027613,
+	"sid": 718796900246714,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 389821661279048
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 502,
+						"height": 84,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.20238095238095238,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3700342,
+						"imageSpriteId": 1511145,
+						"collisionPoly": {
+							"points": [
+								0.00199203187250996,
+								0,
+								0.99800796812749,
+								0,
+								0.99800796812749,
+								1,
+								0.00199203187250996,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 486245914713752,
+				"sid": 516954682872512,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

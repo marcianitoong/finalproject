@@ -1,16 +1,10 @@
 {
-	"name": "fourthdoor",
+	"name": "hideoutend",
 	"plugin-id": "Sprite",
-	"sid": 398280983027613,
+	"sid": 853543886752714,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 389821661279048
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3700342,
+						"imageSpriteId": 7511375,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 486245914713752,
+				"sid": 804851245103587,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
