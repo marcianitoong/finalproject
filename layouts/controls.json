@@ -9,7 +9,7 @@
 				{
 					"type": "Controls",
 					"properties": {
-						"text": "3D Controls:\n- W, A, S, and D  to Move\n- E to Interact\n- Mouse to look around\n\n2D Controls:\n- W to Jump\n- A and D to Move Left and Right respectively\n- E to Interact",
+						"text": "3D Controls:\n- W, A, S, and D  to Move\n- E to Interact\n- Mouse to look around\n\n2D Controls:\n- W to Jump\n- A and D to Move Left and Right respectively",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 20,

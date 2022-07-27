@@ -2,12 +2,12 @@
 	"name": "First Clue",
 	"layers": [
 		{
-			"name": "Background",
+			"name": "Note",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "ClueBackground",
+					"type": "notebackground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -19,14 +19,14 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 310,
+					"uid": 372,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2,
-						"y": 2,
-						"width": 1704,
-						"height": 956,
+						"x": 1,
+						"y": 1,
+						"width": 852,
+						"height": 478,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -40,7 +40,7 @@
 					}
 				}
 			],
-			"sid": 940107963998394,
+			"sid": 389494587467241,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -69,47 +69,40 @@
 			"global": false
 		},
 		{
-			"name": "Obstacles",
+			"name": "Text",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "ClueTilemap",
+					"type": "notetext",
 					"properties": {
+						"text": "Jones Gambit, you owe us,\nit's time to pay.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 70,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"tile-width": 21,
-						"tile-height": 21,
-						"tile-x-offset": 2,
-						"tile-y-offset": 2,
-						"tile-x-spacing": 2,
-						"tile-y-spacing": 2,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
+						"origin": "top-left"
 					},
-					"uid": 516,
+					"uid": 373,
 					"instanceVariables": {},
 					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 81,
-							"height": 45,
-							"max-width": 221,
-							"max-height": 95,
-							"data": "20995x0"
-						},
-						"tile-width": 21,
-						"tile-height": 21,
-						"tile-x-offset": 2,
-						"tile-y-offset": 2,
-						"tile-x-spacing": 2,
-						"tile-y-spacing": 2
-					},
 					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 1708,
-						"height": 960,
+						"x": 82,
+						"y": 83,
+						"width": 690,
+						"height": 313,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -118,144 +111,42 @@
 							1,
 							1
 						],
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Detective",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 517,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 45,
-						"y": 910,
-						"width": 36,
-						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
 						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "firstdoor",
+					"type": "Continue",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 518,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1276,
-						"y": 428,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"text": "Press (E) to Continue",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9176470588235294,
+							0,
 							1
 						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Spikes",
-					"properties": {
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
-					"uid": 519,
+					"uid": 374,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 528,
-						"y": 527,
-						"width": 70,
-						"height": 70,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Fall",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 520,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1028,
-						"y": 469,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ControlsButton",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "click",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 522,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 775,
-						"y": 566,
-						"width": 172.47818540297928,
-						"height": 57.49272846765976,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 691,
+						"y": 438,
+						"width": 153,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -267,7 +158,7 @@
 					}
 				}
 			],
-			"sid": 169392093306936,
+			"sid": 508465788591394,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -294,42 +185,9 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
-		},
-		{
-			"name": "Player and Buttons",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [],
-			"sid": 328539107473227,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
 		}
 	],
-	"sid": 390370278653795,
+	"sid": 776021667631201,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,

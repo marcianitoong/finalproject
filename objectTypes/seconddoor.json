@@ -1,7 +1,7 @@
 {
-	"name": "Fall",
+	"name": "seconddoor",
 	"plugin-id": "Sprite",
-	"sid": 159673794913555,
+	"sid": 757555821389412,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9440129,
+						"imageSpriteId": 3528103,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 272256277486800,
+				"sid": 787706732744447,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

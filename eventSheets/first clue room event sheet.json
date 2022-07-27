@@ -1,10 +1,10 @@
 {
-	"name": "Hideout Event Sheet",
+	"name": "First Clue Room Event Sheet",
 	"events": [
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "For Any 2D Level (Hideout)",
+			"title": "For Any 2D Level",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -14,21 +14,21 @@
 						{
 							"id": "every-tick",
 							"objectClass": "System",
-							"sid": 974829583104496
+							"sid": 753461799327655
 						}
 					],
 					"actions": [
 						{
 							"id": "set-position-to-another-object",
 							"objectClass": "Detective",
-							"sid": 223685740752421,
+							"sid": 723448808968231,
 							"parameters": {
 								"object": "playerbox",
 								"image-point-optional": "0"
 							}
 						}
 					],
-					"sid": 989260747881974
+					"sid": 631861508111717
 				},
 				{
 					"eventType": "block",
@@ -36,7 +36,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 253263060887955,
+							"sid": 154845677453346,
 							"parameters": {
 								"key": 65
 							}
@@ -46,13 +46,13 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Detective",
-							"sid": 625289886877702,
+							"sid": 915468790839915,
 							"parameters": {
 								"state": "mirrored"
 							}
 						}
 					],
-					"sid": 977532118810630
+					"sid": 594228661815392
 				},
 				{
 					"eventType": "block",
@@ -60,7 +60,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 252529715768573,
+							"sid": 496446454196708,
 							"parameters": {
 								"key": 68
 							}
@@ -70,13 +70,13 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Detective",
-							"sid": 862561555172135,
+							"sid": 347594516222406,
 							"parameters": {
 								"state": "not-mirrored"
 							}
 						}
 					],
-					"sid": 571246633869963
+					"sid": 762361926201645
 				},
 				{
 					"eventType": "block",
@@ -84,7 +84,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "playerbox",
-							"sid": 875117413677314,
+							"sid": 268376378489721,
 							"parameters": {
 								"object": "firstbutton"
 							}
@@ -94,105 +94,18 @@
 						{
 							"id": "destroy",
 							"objectClass": "firstdoor",
-							"sid": 938133554936235
+							"sid": 890452096724437
 						},
 						{
 							"id": "set-animation-frame",
 							"objectClass": "firstbutton",
-							"sid": 756995002343813,
+							"sid": 596497525793275,
 							"parameters": {
 								"frame-number": "0"
 							}
 						}
 					],
-					"sid": 403216852945225
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "playerbox",
-							"sid": 836513496503228,
-							"parameters": {
-								"object": "secondbutton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "seconddoor",
-							"sid": 567769401608496
-						},
-						{
-							"id": "set-animation-frame",
-							"objectClass": "secondbutton",
-							"sid": 429756682197521,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 780227284088579
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "playerbox",
-							"sid": 714748291891132,
-							"parameters": {
-								"object": "thirdbutton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "thirddoor",
-							"sid": 829233300683556
-						},
-						{
-							"id": "set-animation-frame",
-							"objectClass": "thirdbutton",
-							"sid": 872816521631782,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 856986649116114
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "playerbox",
-							"sid": 922755854195274,
-							"parameters": {
-								"object": "fourthbutton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "fourthdoor",
-							"sid": 458991265506885
-						},
-						{
-							"id": "set-animation-frame",
-							"objectClass": "fourthbutton",
-							"sid": 669667867906148,
-							"parameters": {
-								"frame-number": "0"
-							}
-						}
-					],
-					"sid": 613172599309087
+					"sid": 128424192855396
 				},
 				{
 					"eventType": "block",
@@ -200,7 +113,7 @@
 						{
 							"id": "on-stopped",
 							"objectClass": "playerbox",
-							"sid": 139057737565427,
+							"sid": 962521717508480,
 							"behaviorType": "Platform"
 						}
 					],
@@ -208,14 +121,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Detective",
-							"sid": 562899876244315,
+							"sid": 337512976815895,
 							"parameters": {
 								"animation": "\"idle\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 253717908484182
+					"sid": 180850421360308
 				},
 				{
 					"eventType": "block",
@@ -223,7 +136,7 @@
 						{
 							"id": "on-moved",
 							"objectClass": "playerbox",
-							"sid": 203287594281896,
+							"sid": 347538397647073,
 							"behaviorType": "Platform"
 						}
 					],
@@ -231,14 +144,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Detective",
-							"sid": 394880760530693,
+							"sid": 390505226102754,
 							"parameters": {
 								"animation": "\"walk\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 951109465256613
+					"sid": 343967509915945
 				},
 				{
 					"eventType": "block",
@@ -246,7 +159,7 @@
 						{
 							"id": "on-landed",
 							"objectClass": "playerbox",
-							"sid": 202366100890378,
+							"sid": 116159450265643,
 							"behaviorType": "Platform"
 						}
 					],
@@ -254,14 +167,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Detective",
-							"sid": 415354841808804,
+							"sid": 692171566506213,
 							"parameters": {
 								"animation": "\"idle\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 345419112718529
+					"sid": 515807657128867
 				},
 				{
 					"eventType": "block",
@@ -269,7 +182,7 @@
 						{
 							"id": "on-jump",
 							"objectClass": "playerbox",
-							"sid": 252497688456626,
+							"sid": 927409280474492,
 							"behaviorType": "Platform"
 						}
 					],
@@ -277,14 +190,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Detective",
-							"sid": 305396019527615,
+							"sid": 787040809770252,
 							"parameters": {
 								"animation": "\"jump\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 607260813102026
+					"sid": 669851345858530
 				},
 				{
 					"eventType": "block",
@@ -292,7 +205,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "playerbox",
-							"sid": 918090674100700,
+							"sid": 423447005774098,
 							"parameters": {
 								"object": "alleyexit"
 							}
@@ -302,13 +215,13 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 437738580697858,
+							"sid": 446679039515684,
 							"parameters": {
 								"layout": "Alley"
 							}
 						}
 					],
-					"sid": 471844005636648
+					"sid": 240800861492287
 				},
 				{
 					"eventType": "block",
@@ -316,7 +229,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 815782184371912,
+							"sid": 909955969139429,
 							"parameters": {
 								"key": 65
 							}
@@ -326,14 +239,14 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "playerbox",
-							"sid": 861531370863452,
+							"sid": 286657735930550,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "left"
 							}
 						}
 					],
-					"sid": 410936209902705
+					"sid": 596423339220300
 				},
 				{
 					"eventType": "block",
@@ -341,7 +254,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 481817846531441,
+							"sid": 141339386088906,
 							"parameters": {
 								"key": 68
 							}
@@ -351,14 +264,14 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "playerbox",
-							"sid": 362199023847425,
+							"sid": 663029989393180,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "right"
 							}
 						}
 					],
-					"sid": 584094962195670
+					"sid": 580270616347077
 				},
 				{
 					"eventType": "block",
@@ -366,7 +279,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 614108937300522,
+							"sid": 727226823879433,
 							"parameters": {
 								"key": 87
 							}
@@ -376,18 +289,119 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "playerbox",
-							"sid": 392127280429561,
+							"sid": 972966844912027,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "jump"
 							}
 						}
 					],
-					"sid": 656707476391606
+					"sid": 669973680348128
 				}
 			],
-			"sid": 145093095362911
+			"sid": 408885762826335
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "First Clue Room Only",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 553909286828493,
+							"parameters": {
+								"object": "Spikes"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 398495104156159
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 244015827311854,
+							"parameters": {
+								"x": "88.836894",
+								"y": " 829.561164"
+							}
+						}
+					],
+					"sid": 160835137313953
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "playerbox",
+							"sid": 317437098865916
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 172373388821907
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 754525833120618,
+							"parameters": {
+								"x": "88.836894",
+								"y": " 829.561164"
+							}
+						}
+					],
+					"sid": 785640655152572
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 275975640606816,
+							"parameters": {
+								"object": "firstcluebox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 321155740368520,
+							"parameters": {
+								"layout": "First Clue"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "firstclue",
+							"sid": 423925792492330
+						},
+						{
+							"id": "destroy",
+							"objectClass": "firstcluebox",
+							"sid": 649845287653262
+						}
+					],
+					"sid": 745523035144615
+				}
+			],
+			"sid": 748737282700444
 		}
 	],
-	"sid": 263456834433702
+	"sid": 988843170121214
 }

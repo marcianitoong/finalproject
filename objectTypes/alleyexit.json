@@ -1,16 +1,10 @@
 {
-	"name": "firstdoor",
+	"name": "alleyexit",
 	"plugin-id": "Sprite",
-	"sid": 208865852268268,
+	"sid": 190458973727021,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 800073690173739
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1316347,
+						"imageSpriteId": 1822244,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 526849606676118,
+				"sid": 262760656972041,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

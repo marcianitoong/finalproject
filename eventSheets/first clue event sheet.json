@@ -1,5 +1,30 @@
 {
 	"name": "First Clue Event Sheet",
-	"events": [],
-	"sid": 988843170121214
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 643887790237857,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 481581075374377,
+					"parameters": {
+						"layout": "First Clue Room"
+					}
+				}
+			],
+			"sid": 865510109563086
+		}
+	],
+	"sid": 316393470310769
 }

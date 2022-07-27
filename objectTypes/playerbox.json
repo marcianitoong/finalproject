@@ -1,14 +1,24 @@
 {
-	"name": "firstdoor",
+	"name": "playerbox",
 	"plugin-id": "Sprite",
-	"sid": 208865852268268,
+	"sid": 825686962537987,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 800073690173739
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 229896055358376
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 981113295697031
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 374172371565146
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +34,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1316347,
+						"imageSpriteId": 1527159,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 526849606676118,
+				"sid": 422269145145059,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

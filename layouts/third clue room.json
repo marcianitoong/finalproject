@@ -1,5 +1,5 @@
 {
-	"name": "Third Clue",
+	"name": "Third Clue Room",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -44,5 +44,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Third Clue Event Sheet"
+	"eventSheet": "Third Clue Room Event Sheet"
 }
