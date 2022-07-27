@@ -64,12 +64,6 @@
 							"parameters": {
 								"key": 68
 							}
-						},
-						{
-							"id": "is-enabled",
-							"objectClass": "playerbox",
-							"sid": 777656659779471,
-							"behaviorType": "Platform"
 						}
 					],
 					"actions": [
