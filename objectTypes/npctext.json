@@ -1,0 +1,26 @@
+{
+	"name": "npcText",
+	"plugin-id": "Spritefont2",
+	"sid": 345405888753296,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 829507574525490
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 1024,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4104613,
+		"useCollisionPoly": true
+	}
+}

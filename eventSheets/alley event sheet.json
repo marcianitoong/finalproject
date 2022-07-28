@@ -104,6 +104,15 @@
 							"parameters": {
 								"angle": "3DCamera.CameraXRotation"
 							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerHitbox",
+							"sid": 838211747892178,
+							"parameters": {
+								"x": "player.X",
+								"y": "player.Y"
+							}
 						}
 					],
 					"sid": 159023226070619
@@ -526,91 +535,743 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player",
-							"sid": 455231015840865,
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 181948215709822,
 							"parameters": {
 								"object": "entreansOne"
 							}
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 864568396271953,
+					"children": [
 						{
-							"id": "destroy",
-							"objectClass": "beerBottem",
-							"sid": 242554882060275
-						},
-						{
-							"id": "destroy",
-							"objectClass": "beerTop",
-							"sid": 425739506072574
-						},
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 905594874376810,
-							"parameters": {
-								"layout": "First Clue Room"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 984646341372210,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "beerBottem",
+									"sid": 750916536882846
+								},
+								{
+									"id": "destroy",
+									"objectClass": "beerTop",
+									"sid": 991837552552158
+								},
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 129003169251836,
+									"parameters": {
+										"layout": "First Clue Room"
+									}
+								}
+							],
+							"sid": 686884973514134
 						}
-					],
-					"sid": 864568396271953
+					]
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "player",
-							"sid": 938053479510835,
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 418410991934520,
 							"parameters": {
 								"object": "musitionTeleport"
 							}
 						}
 					],
+					"actions": [],
+					"sid": 921968920860819,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 240574148990152,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 258253465622928,
+									"parameters": {
+										"layout": "music mini game"
+									}
+								}
+							],
+							"sid": 297700858721780
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 522285615831800
+						}
+					],
 					"actions": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 840821941634977,
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 944220085340102,
 							"parameters": {
-								"layout": "music mini game"
+								"audio-file": "Blues Music",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
 							}
 						}
 					],
-					"sid": 921968920860819
+					"sid": 821794773306128
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 400764388526214,
+							"parameters": {
+								"object": "entranceTwo"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 206514315398575,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 156542817722606,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "BoxesPropDectruckt",
+									"sid": 349966285060471
+								},
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 850301436786379,
+									"parameters": {
+										"layout": "Third Clue Room"
+									}
+								}
+							],
+							"sid": 865471039992824
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 519906132721701,
+							"parameters": {
+								"object": "entreansOne2"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 691595165913257,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 657360478402411,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 201209250186408,
+									"parameters": {
+										"layout": "Hideout"
+									}
+								}
+							],
+							"sid": 257365265262836
+						}
+					]
 				}
 			],
 			"sid": 144650960327029
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "controlls menue",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 758610176418162
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-time",
+							"objectClass": "System",
+							"sid": 471581726422510,
+							"parameters": {
+								"comparison": 4,
+								"time-seconds": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "titorilBackrownd",
+							"sid": 692747434040770,
+							"parameters": {
+								"y": "titorilBackrownd.Y+1"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Tutorial",
+							"sid": 415804583662425,
+							"parameters": {
+								"y": "Tutorial.Y+1"
+							}
+						}
+					],
+					"sid": 731624611929904
 				}
 			],
-			"actions": [
+			"sid": 596905669582168
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "talking npc",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 868239734596695
+					"eventType": "group",
+					"disabled": false,
+					"title": "npcdoorone",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 944553623010280,
+									"parameters": {
+										"object": "doorHitboxnpcone"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 643129807371246,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 829231431500707,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "doorHitboxnpcone",
+											"sid": 672694343190224
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 291763109536015,
+											"parameters": {
+												"text": "\"Detective:Hi can I come in?\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 888678113530845,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 728785082638722,
+											"parameters": {
+												"text": "\"Jack:Give me five bucks and you have a deal\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 826855134362779,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 492632529107999,
+											"parameters": {
+												"text": "\"Detective:You suck here you go\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 701749390851034,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 742478417449709,
+											"parameters": {
+												"text": "\"Jack:Ok bye loser\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "doorsone",
+											"sid": 184420332757693,
+											"parameters": {
+												"angle": "321.2"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "doorsone",
+											"sid": 547926921262666,
+											"parameters": {
+												"x": "508.01922",
+												"y": "276.270921"
+											}
+										}
+									],
+									"sid": 976468659291247
+								}
+							]
+						}
+					],
+					"sid": 811459438292264
 				},
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 110006203414972,
-					"parameters": {
-						"audio-file": "Blues Music",
-						"loop": "not-looping",
-						"volume": "-10",
-						"tag-optional": "\"\""
-					}
+					"eventType": "group",
+					"disabled": false,
+					"title": "npc block1",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 761815583402253,
+									"parameters": {
+										"object": "blocknpcHitbox1area"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 537611495491162,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 470808292635710,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "blocknpcHitbox1area",
+											"sid": 830241268439296
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 817543930744994,
+											"parameters": {
+												"text": "\"Detective:Hi\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 509907326986865,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 785665023274533,
+											"parameters": {
+												"text": "\"Hue:Names Hue give me a sec I have to finnish staking the bottles\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 787069753503117,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 892078185232543,
+											"parameters": {
+												"text": "\"Detective:do you have a last name\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 884266619787493,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 115713737312542,
+											"parameters": {
+												"text": "\"Hue:No leave me alown\"",
+												"duration": "3"
+											}
+										}
+									],
+									"sid": 250215781254913
+								}
+							]
+						}
+					],
+					"sid": 351433331117742
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "npcdoortwo",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 229644621301167,
+									"parameters": {
+										"object": "blocknpcHitbox1area2"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 840244637164646,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 752147444749403,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "blocknpcHitbox1area2",
+											"sid": 511357113248714
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 483044291604426,
+											"parameters": {
+												"text": "\"Detective:Hi can I come in?\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 133286084534225,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 108184178715596,
+											"parameters": {
+												"text": "\"Mat:Yeah its a bit messy but you can come in\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 329246217097723,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 428094338243267,
+											"parameters": {
+												"text": "\"Detective:Can you move the boxes in the mean time\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 418491580821122,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 762853869873998,
+											"parameters": {
+												"text": "\"Jack:Ok fine\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "doorsone2",
+											"sid": 571450383836270,
+											"parameters": {
+												"angle": "321.2"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "doorsone2",
+											"sid": 934292134935397,
+											"parameters": {
+												"x": "1358.963367",
+												"y": "276.236514"
+											}
+										}
+									],
+									"sid": 145720881838273
+								}
+							]
+						}
+					],
+					"sid": 904870250701920
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "last npc",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "npcHitboxLast",
+									"sid": 492834086296084,
+									"parameters": {
+										"object": "playerHitbox"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 782424870053112,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 753834909834634,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "npcHitboxLast",
+											"sid": 864478457999226
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 644132887711973,
+											"parameters": {
+												"text": "\"Detective:Hi can I come in?\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 300638267124336,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 231446715769273,
+											"parameters": {
+												"text": "\"Rob:No let me eat my sandwich\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 668662618901960,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 429559238659266,
+											"parameters": {
+												"text": "\"Detective:What\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 771264761240105,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 844993577706987,
+											"parameters": {
+												"text": "\"Jack:Ok fine ill open the door so you can let me eat my sandwich\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "doorsone3",
+											"sid": 194454641522889,
+											"parameters": {
+												"angle": "321.2"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "doorsone3",
+											"sid": 976672703169375,
+											"parameters": {
+												"x": "410",
+												"y": "-196"
+											}
+										}
+									],
+									"sid": 375951150580524
+								}
+							]
+						}
+					],
+					"sid": 314682131379694
 				}
 			],
-			"sid": 820882138293374
+			"sid": 142844693062705
 		}
 	],
 	"sid": 318310682169119

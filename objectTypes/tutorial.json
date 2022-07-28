@@ -1,0 +1,31 @@
+{
+	"name": "Tutorial",
+	"plugin-id": "Spritefont2",
+	"sid": 142017378683197,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 649649857908255
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 449495261459165
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 1024,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3168409,
+		"useCollisionPoly": true
+	}
+}

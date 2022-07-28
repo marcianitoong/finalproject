@@ -56,6 +56,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
@@ -160,6 +168,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
@@ -209,7 +225,21 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"blocknpcHitbox1area",
+			"Text5",
+			"playerText",
+			"npcText",
+			"doornpcone",
+			"doorHitboxnpcone",
+			"playerHitbox",
+			"blocknpcHitbox1area2",
+			"doorsone2",
+			"3DShape8",
+			"npclast",
+			"npcHitboxLast",
+			"doorsone3"
+		],
 		"subfolders": [
 			{
 				"items": [
@@ -266,7 +296,9 @@
 					"diarytext",
 					"textNpc1",
 					"textNpc2",
-					"minigamebackground"
+					"minigamebackground",
+					"titorilBackrownd",
+					"Tutorial"
 				],
 				"subfolders": [
 					{
@@ -277,7 +309,7 @@
 							"Door",
 							"walls",
 							"trashCan",
-							"doors",
+							"doorsone",
 							"pipes",
 							"wall",
 							"window",

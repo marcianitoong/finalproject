@@ -1,0 +1,26 @@
+{
+	"name": "playerText",
+	"plugin-id": "Spritefont2",
+	"sid": 384460851738228,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 548594062000232
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 1024,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9877212,
+		"useCollisionPoly": true
+	}
+}
