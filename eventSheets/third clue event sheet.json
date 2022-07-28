@@ -1,5 +1,30 @@
 {
 	"name": "Third Clue Event Sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 466119226158269,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 385869944780935,
+					"parameters": {
+						"layout": "Third Clue Room"
+					}
+				}
+			],
+			"sid": 841501325938352
+		}
+	],
 	"sid": 923108181601816
 }

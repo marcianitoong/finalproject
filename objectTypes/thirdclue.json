@@ -1,0 +1,63 @@
+{
+	"name": "thirdclue",
+	"plugin-id": "Sprite",
+	"sid": 476345674061561,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 901430213634474
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 602,
+						"height": 414,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6970037,
+						"collisionPoly": {
+							"points": [
+								0.21760797342192692,
+								0.3164251207729469,
+								0.5,
+								0.17149758454106281,
+								0.7541528239202658,
+								0.35507246376811596,
+								0.770764119601329,
+								0.5,
+								0.7840531561461794,
+								0.6859903381642513,
+								0.5,
+								0.8671497584541062,
+								0.23920265780730898,
+								0.6497584541062802,
+								0.1893687707641196,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 123993257459098,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -563,7 +563,7 @@
 				{
 					"type": "thirdcluebox",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -571,12 +571,16 @@
 					},
 					"uid": 414,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
 					"world": {
-						"x": -144,
-						"y": 827,
-						"width": 250,
-						"height": 250,
+						"x": 1496.7452518506593,
+						"y": 860.7814074506277,
+						"width": 84.50949629868154,
+						"height": 130.09370689904472,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -749,6 +753,39 @@
 						"y": 522,
 						"width": 36,
 						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "thirdclue",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 621,
+					"instanceVariables": {},
+					"behaviors": {
+						"Persist": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 1496,
+						"y": 899,
+						"width": 47.06178399557882,
+						"height": 41.39862639703149,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

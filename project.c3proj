@@ -247,7 +247,10 @@
 			"perpleNote",
 			"streakSkore",
 			"exitButtion",
-			"Text4"
+			"Text4",
+			"thirdclue",
+			"diarybackground",
+			"Text5"
 		],
 		"subfolders": [
 			{

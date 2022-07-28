@@ -655,6 +655,107 @@
 				}
 			],
 			"sid": 909259925524684
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Third Clue Room Only",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 189270241650361,
+							"parameters": {
+								"object": "Spikes"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 673226556070075
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 445925342809637,
+							"parameters": {
+								"x": "66",
+								"y": "522"
+							}
+						}
+					],
+					"sid": 928878724296721
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "playerbox",
+							"sid": 291967795915580
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 678241975688571
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 724470534646247,
+							"parameters": {
+								"x": "66",
+								"y": "522"
+							}
+						}
+					],
+					"sid": 399407445080039
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 615710095298387,
+							"parameters": {
+								"object": "thirdcluebox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 224036363579041,
+							"parameters": {
+								"layout": "Third Clue"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "thirdclue",
+							"sid": 496824335641280
+						},
+						{
+							"id": "destroy",
+							"objectClass": "thirdcluebox",
+							"sid": 555048595832498
+						}
+					],
+					"sid": 319933256210813
+				}
+			],
+			"sid": 885411254342614
 		}
 	],
 	"sid": 173498562032218

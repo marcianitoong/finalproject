@@ -1,0 +1,57 @@
+{
+	"name": "diarybackground",
+	"plugin-id": "Sprite",
+	"sid": 938817082951875,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 270,
+						"height": 187,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6899665,
+						"collisionPoly": {
+							"points": [
+								0.025925925925925925,
+								0.0374331550802139,
+								0.5,
+								0.03208556149732621,
+								0.9740740740740741,
+								0.03208556149732621,
+								0.9962962962962963,
+								0.5,
+								0.9851851851851852,
+								0.9786096256684492,
+								0.5,
+								0.9732620320855615,
+								0.007407407407407408,
+								0.983957219251337,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 606235825876482,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
