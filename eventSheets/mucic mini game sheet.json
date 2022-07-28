@@ -309,7 +309,7 @@
 									"objectClass": "notePink",
 									"sid": 883018408254405,
 									"parameters": {
-										"object": "fAKEnotepink",
+										"object": "fakeNotePink",
 										"layer": "0",
 										"image-point": "0",
 										"create-hierarchy": false

@@ -2,7 +2,7 @@
 	"name": "Third Clue",
 	"layers": [
 		{
-			"name": "diary",
+			"name": "Diary",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
@@ -65,12 +65,12 @@
 			"global": false
 		},
 		{
-			"name": "text",
+			"name": "Text",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Text5",
+					"type": "diarytext",
 					"properties": {
 						"text": "Today is the day I'm leaving my old life behind.\nI already found a body double.\nNobody is going to know that I even left.\n",
 						"enable-bbcode": true,
@@ -107,7 +107,7 @@
 							1,
 							1
 						],
-						"angle": 6.270271955854073,
+						"angle": 0.009695215533137659,
 						"zElevation": 0
 					}
 				},
@@ -130,7 +130,7 @@
 						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
 						"wrapping": "word",
-						"initially-visible": false,
+						"initially-visible": true,
 						"origin": "top-left"
 					},
 					"uid": 624,

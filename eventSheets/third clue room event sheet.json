@@ -711,10 +711,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "playerbox",
-							"sid": 724470534646247,
+							"sid": 505297427103423,
 							"parameters": {
 								"x": "66",
-								"y": "522"
+								"y": "515"
 							}
 						}
 					],

@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "minigamebackground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"type": "fAKEnotepink",
+					"type": "fakeNotePink",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
