@@ -238,7 +238,8 @@
 			"3DShape8",
 			"npclast",
 			"npcHitboxLast",
-			"doorsone3"
+			"doorsone3",
+			"musicMiniGameText"
 		],
 		"subfolders": [
 			{

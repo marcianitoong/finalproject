@@ -514,10 +514,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 101,
-						"y": 398,
-						"width": 191,
-						"height": 126,
+						"x": 96,
+						"y": 403.5,
+						"width": 181,
+						"height": 115,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -560,6 +560,48 @@
 						"y": 376,
 						"width": 200,
 						"height": 69,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "musicMiniGameText",
+					"properties": {
+						"text": "Press Q to activate the bottom note, press E to activate the top note, and to activate the yellow note press space",
+						"enable-bbcode": true,
+						"font": "serif",
+						"size": 14,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 632,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 5,
+						"y": 31,
+						"width": 844,
+						"height": 97,
 						"originX": 0,
 						"originY": 0,
 						"color": [

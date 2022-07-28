@@ -419,6 +419,30 @@
 				}
 			],
 			"sid": 134194613421574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 208004675512570,
+					"parameters": {
+						"interval-seconds": "0.5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "musicMiniGameText",
+					"sid": 215928335671379,
+					"parameters": {
+						"opacity": "musicMiniGameText.Opacity-5"
+					}
+				}
+			],
+			"sid": 738085448025409
 		}
 	],
 	"sid": 110164597521903
