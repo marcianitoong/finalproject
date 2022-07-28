@@ -688,9 +688,9 @@
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",
-									"sid": 850301436786379,
+									"sid": 843546172775413,
 									"parameters": {
-										"layout": "Third Clue Room"
+										"layout": "Second Clue Room"
 									}
 								}
 							],
@@ -729,13 +729,110 @@
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",
-									"sid": 201209250186408,
+									"sid": 376972858007864,
+									"parameters": {
+										"layout": "Third Clue Room"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "BoxesPropDectruckt2",
+									"sid": 181635974000415
+								}
+							],
+							"sid": 257365265262836
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 648440371754505,
+							"parameters": {
+								"object": "entreansOne4"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 531004999032171,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 690145672488757,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 205819100484806,
 									"parameters": {
 										"layout": "Hideout"
 									}
 								}
 							],
-							"sid": 257365265262836
+							"sid": 524338245304121
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "playerHitbox",
+							"sid": 968866211249330,
+							"parameters": {
+								"object": "entreansOne3"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 896417858042004,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 355380221482812,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 891261396136565,
+									"parameters": {
+										"layout": "Bar"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "dumpsterbottom2",
+									"sid": 750107232183686
+								},
+								{
+									"id": "destroy",
+									"objectClass": "dumpsterTop2",
+									"sid": 778390868694766
+								}
+							],
+							"sid": 665928034389564
 						}
 					]
 				}
@@ -792,6 +889,188 @@
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "npc last last",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 981710268208700,
+									"parameters": {
+										"object": "latLats"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 280014031027428,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 158246006496250,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 892277981708408,
+											"parameters": {
+												"text": "\"Detective:Hi\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 877034245339089,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 582653517926795,
+											"parameters": {
+												"text": "\"Thinker:Ok im thinking\"",
+												"duration": "3"
+											}
+										}
+									],
+									"sid": 347786710178321
+								}
+							]
+						}
+					],
+					"sid": 567816906764737
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "bar npc",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 640292566518515,
+									"parameters": {
+										"object": "barHitbox"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 631261995194409,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 118061831292758,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "barHitbox",
+											"sid": 726441658839155
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 869761605133301,
+											"parameters": {
+												"text": "\"Detective:Hi can I come in?\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 534206534908365,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 389365747398578,
+											"parameters": {
+												"text": "\"Buck:can I see you ID\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 449719763699060,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 749893114612025,
+											"parameters": {
+												"text": "\"Detective:Here you go\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 907716640616285,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 513041479065918,
+											"parameters": {
+												"text": "\"Buck:Ok come in\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "barHitbox2",
+											"sid": 689001541323053
+										}
+									],
+									"sid": 130302839733615
+								}
+							]
+						}
+					],
+					"sid": 745245928139396
+				},
 				{
 					"eventType": "group",
 					"disabled": false,

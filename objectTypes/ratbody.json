@@ -19,6 +19,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 			"sid": 535214765772140
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 883418525821616
 		}
 	],
 	"effectTypes": [],

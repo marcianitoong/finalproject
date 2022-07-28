@@ -239,7 +239,21 @@
 			"npclast",
 			"npcHitboxLast",
 			"doorsone3",
-			"musicMiniGameText"
+			"musicMiniGameText",
+			"entreansOne3",
+			"doorsone4",
+			"3DShape9",
+			"npclastLast",
+			"barHitbox",
+			"3DShape18",
+			"barHitbox2",
+			"dumpsterbottom2",
+			"dumpsterTop2",
+			"3DShape17",
+			"latLats",
+			"entreansOne4",
+			"doorsone5",
+			"BoxesPropDectruckt2"
 		],
 		"subfolders": [
 			{
