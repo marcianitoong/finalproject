@@ -223,7 +223,7 @@
 						"x": 1226,
 						"y": 860.5,
 						"width": 55.693358459472236,
-						"height": 126.35731323242152,
+						"height": 126.35731323242153,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -552,7 +552,7 @@
 			"drawOrder": "z-order",
 			"useRenderCells": false,
 			"blendMode": "normal",
-			"zElevation": 0,
+			"zElevation": 1,
 			"global": false
 		},
 		{
@@ -787,7 +787,7 @@
 			"drawOrder": "z-order",
 			"useRenderCells": false,
 			"blendMode": "normal",
-			"zElevation": 0,
+			"zElevation": 1,
 			"global": false
 		}
 	],
