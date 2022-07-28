@@ -1,0 +1,97 @@
+{
+	"name": "3DShape12",
+	"plugin-id": "Shape3D",
+	"sid": 769302095415390,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5425046,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8883376,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5252653,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6887560,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7943474,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6062955,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 954614818114370,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

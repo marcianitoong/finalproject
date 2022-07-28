@@ -526,6 +526,16 @@
 							"id": "destroy",
 							"objectClass": "firstcluebox",
 							"sid": 649845287653262
+						},
+						{
+							"id": "destroy",
+							"objectClass": "beerBottem",
+							"sid": 470703988168106
+						},
+						{
+							"id": "destroy",
+							"objectClass": "beerTop",
+							"sid": 628210869787980
 						}
 					],
 					"sid": 745523035144615

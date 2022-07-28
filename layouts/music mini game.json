@@ -1,0 +1,615 @@
+{
+	"name": "music mini game",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "TiledBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 588,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 854,
+						"height": 480,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "notePink",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 589,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 751,
+						"y": 618,
+						"width": 59.256,
+						"height": 88.55765853658536,
+						"originX": 0.5476190476190477,
+						"originY": 0.5080645161290323,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pinkSpaner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 591,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 5,
+						"y": 320,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PinkMusicNote",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 593,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 496.6,
+						"y": 320,
+						"width": 59.256,
+						"height": 88.557659,
+						"originX": 0.5595238095238096,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "fAKEnotepink",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 595,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 636,
+						"y": 708,
+						"width": 59.256,
+						"height": 88.557659,
+						"originX": 0.5476190476190477,
+						"originY": 0.5080645161290323,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OrengeMusicNote",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 596,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 496.6,
+						"y": 160,
+						"width": 59.256,
+						"height": 88.557659,
+						"originX": 0.5595238095238096,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "orengeSpaner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 597,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 5,
+						"y": 160,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "noteOrenge",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 598,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 864,
+						"y": 597,
+						"width": 59.256,
+						"height": 88.557659,
+						"originX": 0.5542168674698795,
+						"originY": 0.504,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "fakeNoteOrenge",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 599,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 500,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 836,
+						"y": 703,
+						"width": 59.256,
+						"height": 88.557659,
+						"originX": 0.5542168674698795,
+						"originY": 0.504,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "fakePerple",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 600,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 100,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"BlackWhite": {
+							"isEnabled": false,
+							"parameters": {
+								"threshold": 0.8
+							}
+						}
+					},
+					"world": {
+						"x": 1232,
+						"y": 231,
+						"width": 57.096000000000004,
+						"height": 178.848,
+						"originX": 0.5432098765432098,
+						"originY": 0.5163934426229508,
+						"color": [
+							1,
+							1,
+							1,
+							0.5
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "preperlSpan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 601,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 685,
+						"y": 8,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "buttion",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 602,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"BlackWhite": {
+							"isEnabled": false,
+							"parameters": {
+								"threshold": 0.8
+							}
+						}
+					},
+					"world": {
+						"x": 685,
+						"y": 256,
+						"width": 57.096000000000004,
+						"height": 178.848,
+						"originX": 0.5432098765432098,
+						"originY": 0.5163934426229508,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "perpleNote",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 603,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 100,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"effects": {
+						"BlackWhite": {
+							"isEnabled": false,
+							"parameters": {
+								"threshold": 0.8
+							}
+						}
+					},
+					"world": {
+						"x": 1111,
+						"y": 496,
+						"width": 57.096000000000004,
+						"height": 178.848,
+						"originX": 0.5432098765432098,
+						"originY": 0.5163934426229508,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "exitButtion",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 590,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 101,
+						"y": 398,
+						"width": 191,
+						"height": 126,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text4",
+					"properties": {
+						"text": "Exit",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 592,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 62,
+						"y": 376,
+						"width": 200,
+						"height": 69,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 133964259280611,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 560747735532359,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "mucic mini game sheet"
+}

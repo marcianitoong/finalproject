@@ -9,6 +9,11 @@
 			"behaviorId": "solid",
 			"name": "Solid",
 			"sid": 366944877320264
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 327571366892001
 		}
 	],
 	"effectTypes": [],

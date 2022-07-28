@@ -1,0 +1,42 @@
+{
+	"name": "buttion",
+	"plugin-id": "Sprite",
+	"sid": 310295800105699,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "blacknwhite",
+			"name": "BlackWhite"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 162,
+						"height": 122,
+						"originX": 0.5432098765432098,
+						"originY": 0.5163934426229508,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6361950,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 137496075956389,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

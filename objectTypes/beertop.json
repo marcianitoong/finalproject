@@ -6,9 +6,9 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 591861410645358
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 834546786972813
 		}
 	],
 	"effectTypes": [],

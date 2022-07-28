@@ -19,6 +19,11 @@
 			"behaviorId": "LOS",
 			"name": "LineOfSight",
 			"sid": 377469178421219
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 302027223454752
 		}
 	],
 	"effectTypes": [],

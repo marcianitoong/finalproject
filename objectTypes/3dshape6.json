@@ -1,16 +1,10 @@
 {
 	"name": "3DShape6",
 	"plugin-id": "Shape3D",
-	"sid": 648919791478177,
+	"sid": 127746078445044,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 442911598705902
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1246982,
+						"imageSpriteId": 8772859,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -36,7 +30,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7218350,
+						"imageSpriteId": 2028279,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -48,7 +42,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8578478,
+						"imageSpriteId": 4417567,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -60,7 +54,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9812081,
+						"imageSpriteId": 1569628,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -72,7 +66,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9954836,
+						"imageSpriteId": 477253,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -84,12 +78,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2291399,
+						"imageSpriteId": 550279,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 575030662067755,
+				"sid": 337159393070472,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -514,6 +514,103 @@
 				}
 			],
 			"sid": 394317998988139
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "transition between groups",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player",
+							"sid": 455231015840865,
+							"parameters": {
+								"object": "entreansOne"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "beerBottem",
+							"sid": 242554882060275
+						},
+						{
+							"id": "destroy",
+							"objectClass": "beerTop",
+							"sid": 425739506072574
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 905594874376810,
+							"parameters": {
+								"layout": "First Clue Room"
+							}
+						}
+					],
+					"sid": 864568396271953
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player",
+							"sid": 938053479510835,
+							"parameters": {
+								"object": "musitionTeleport"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 840821941634977,
+							"parameters": {
+								"layout": "music mini game"
+							}
+						}
+					],
+					"sid": 921968920860819
+				}
+			],
+			"sid": 144650960327029
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 758610176418162
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 868239734596695
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 110006203414972,
+					"parameters": {
+						"audio-file": "Blues Music",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 820882138293374
 		}
 	],
 	"sid": 318310682169119

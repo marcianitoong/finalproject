@@ -120,6 +120,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pathfinding",
 			"name": "Pathfinding",
 			"author": "Scirra",
@@ -130,22 +138,6 @@
 			"type": "behavior",
 			"id": "MoveTo",
 			"name": "Move To",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Persist",
-			"name": "Persist",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -175,6 +167,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "softlight",
 			"name": "Soft light",
@@ -192,6 +192,14 @@
 		},
 		{
 			"type": "effect",
+			"id": "blacknwhite",
+			"name": "Black & white",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
 			"id": "fogexponential",
 			"name": "Fog (exponential)",
 			"author": "Scirra",
@@ -202,7 +210,44 @@
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
 		"items": [
-			"Text"
+			"Text",
+			"textNpc1",
+			"Text2",
+			"Text3",
+			"musitionStage",
+			"3DShape6",
+			"3DShape",
+			"musitionTeleport",
+			"3DShape11",
+			"entreansOne",
+			"3DShape12",
+			"entranceTwo",
+			"entreansOne2",
+			"3DShape13",
+			"3DShape14",
+			"textNpc2",
+			"3DShape15",
+			"BoxesPropDectruckt",
+			"3DShape16",
+			"TiledBackground",
+			"notePink",
+			"Sprite4",
+			"pinkSpaner",
+			"Sprite7",
+			"PinkMusicNote",
+			"Sprite9",
+			"fAKEnotepink",
+			"OrengeMusicNote",
+			"orengeSpaner",
+			"noteOrenge",
+			"fakeNoteOrenge",
+			"fakePerple",
+			"preperlSpan",
+			"buttion",
+			"perpleNote",
+			"streakSkore",
+			"exitButtion",
+			"Text4"
 		],
 		"subfolders": [
 			{
@@ -403,7 +448,8 @@
 			"First Clue",
 			"Second Clue",
 			"Third Clue",
-			"End Screen"
+			"End Screen",
+			"music mini game"
 		],
 		"subfolders": []
 	},
@@ -422,7 +468,8 @@
 			"First Clue Event Sheet",
 			"Second Clue Event Sheet",
 			"Third Clue Event Sheet",
-			"End Screen Event Sheet"
+			"End Screen Event Sheet",
+			"mucic mini game sheet"
 		],
 		"subfolders": []
 	},
@@ -445,6 +492,38 @@
 					"name": "StartMenuClick.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 525647489161487,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Bass-Drum-Hit-Level-6b-www.fesliyanstudios.com.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 465826012569362,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Hi-Hat-Closed-Hit-A1-www.fesliyanstudios.com.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 187471779167095,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SD7575.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 929339987762312,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Kick_drum_sound_effect_(getmp3.pro).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 589454043084424,
 					"file-info": {
 						"purpose": "none"
 					}

@@ -1,0 +1,53 @@
+{
+	"name": "fakePerple",
+	"plugin-id": "Sprite",
+	"sid": 142835117748516,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 590128594075323
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 201932518216396
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "blacknwhite",
+			"name": "BlackWhite"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 162,
+						"height": 122,
+						"originX": 0.5432098765432098,
+						"originY": 0.5163934426229508,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2830358,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 763039066420887,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

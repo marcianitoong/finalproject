@@ -1,0 +1,68 @@
+{
+	"name": "fAKEnotepink",
+	"plugin-id": "Sprite",
+	"sid": 755107360894648,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 603856189937608
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 301554587938991
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 84,
+						"height": 124,
+						"originX": 0.5476190476190477,
+						"originY": 0.5080645161290323,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 181968,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0.5,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 551971948882505,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

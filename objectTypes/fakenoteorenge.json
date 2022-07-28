@@ -1,0 +1,68 @@
+{
+	"name": "fakeNoteOrenge",
+	"plugin-id": "Sprite",
+	"sid": 812228738242139,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 350744311804305
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 875599814966074
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 83,
+						"height": 125,
+						"originX": 0.5542168674698795,
+						"originY": 0.504,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9265326,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.13855421686746988,
+								0,
+								1,
+								0,
+								1,
+								0.416,
+								1,
+								1,
+								0.13855421686746988,
+								1,
+								0,
+								1,
+								0,
+								0.416
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 324409930872942,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

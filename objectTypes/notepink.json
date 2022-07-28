@@ -1,0 +1,68 @@
+{
+	"name": "notePink",
+	"plugin-id": "Sprite",
+	"sid": 762045572038605,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 740607413586362
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 963758555060208
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 84,
+						"height": 124,
+						"originX": 0.5476190476190477,
+						"originY": 0.5080645161290323,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9437592,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0.5,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 451251709727945,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

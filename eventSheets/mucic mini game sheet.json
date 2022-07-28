@@ -1,0 +1,425 @@
+{
+	"name": "mucic mini game sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 252541716248020,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "pinkSpaner",
+					"sid": 151405551074284,
+					"parameters": {
+						"object": "notePink",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 828401772738116,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "PinkMusicNote",
+					"sid": 641937094081342,
+					"parameters": {
+						"x": "PinkMusicNote.X",
+						"y": "PinkMusicNote.Y"
+					}
+				}
+			],
+			"sid": 683293295626200
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 378610718798584
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 216893510613394,
+					"parameters": {
+						"audio-file": "Blues Music",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 976560823435544
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "notes",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "perppule notes",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 985861866739276,
+									"parameters": {
+										"interval-seconds": "2.5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "preperlSpan",
+									"sid": 973373653455712,
+									"parameters": {
+										"object": "perpleNote",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 469903378090365
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-y",
+									"objectClass": "perpleNote",
+									"sid": 134479928013175,
+									"parameters": {
+										"comparison": 5,
+										"y-co-ordinate": "buttion.Y+19"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "perpleNote",
+									"sid": 927229280586786
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "perpleNote",
+									"sid": 853727158354116,
+									"parameters": {
+										"object": "fakePerple",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 288624389267723
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-y",
+									"objectClass": "perpleNote",
+									"sid": 237047850942970,
+									"parameters": {
+										"comparison": 5,
+										"y-co-ordinate": "buttion.Y-40"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 625645878216404,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 966928196956533,
+											"parameters": {
+												"key": 32
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "destroy",
+											"objectClass": "perpleNote",
+											"sid": 795974337980308
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 655531955403178,
+											"parameters": {
+												"audio-file": "Kick_drum_sound_effect_(getmp3.pro)",
+												"loop": "not-looping",
+												"volume": "0",
+												"tag-optional": "\"\""
+											}
+										}
+									],
+									"sid": 317916037958172
+								}
+							]
+						}
+					],
+					"sid": 408149703031015
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "pink notes",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "notePink",
+									"sid": 440304730852329,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "470"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 174278308705060,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 900321441819659,
+											"parameters": {
+												"key": 81
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 778223208826666,
+											"parameters": {
+												"audio-file": "Bass-Drum-Hit-Level-6b-www.fesliyanstudios.com",
+												"loop": "not-looping",
+												"volume": "-10",
+												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "notePink",
+											"sid": 179199748781282
+										}
+									],
+									"sid": 756887152129415
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 623095125983431,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 654364712727098,
+											"parameters": {
+												"audio-file": "Hi-Hat-Closed-Hit-A1-www.fesliyanstudios.com",
+												"loop": "not-looping",
+												"volume": "-10",
+												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "noteOrenge",
+											"sid": 828290890267938
+										}
+									],
+									"sid": 964695960605377
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "notePink",
+									"sid": 993933129847778,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "515"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "notePink",
+									"sid": 282395189100072
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "notePink",
+									"sid": 883018408254405,
+									"parameters": {
+										"object": "fAKEnotepink",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 734868506675258
+						}
+					],
+					"sid": 583281285122169
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "oringe notes",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "noteOrenge",
+									"sid": 653490986372641,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "520"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "noteOrenge",
+									"sid": 142937599528357
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "noteOrenge",
+									"sid": 674994154798201,
+									"parameters": {
+										"object": "fakeNoteOrenge",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 367990721478454
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 267357831062015,
+									"parameters": {
+										"interval-seconds": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "orengeSpaner",
+									"sid": 214482158304353,
+									"parameters": {
+										"object": "noteOrenge",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 851906017983795
+						}
+					],
+					"sid": 741213030380537
+				}
+			],
+			"sid": 322071561307709
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 601440250079968,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exitButtion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 567400991981689,
+					"parameters": {
+						"layout": "Alley"
+					}
+				}
+			],
+			"sid": 134194613421574
+		}
+	],
+	"sid": 110164597521903
+}
