@@ -1,5 +1,30 @@
 {
 	"name": "Second Clue Event Sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 315162435371602,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 166133144779889,
+					"parameters": {
+						"layout": "Second Clue Room"
+					}
+				}
+			],
+			"sid": 693446628303095
+		}
+	],
 	"sid": 582203068128077
 }

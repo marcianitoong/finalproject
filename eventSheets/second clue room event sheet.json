@@ -1,5 +1,107 @@
 {
 	"name": "Second Clue Room Event Sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Second Clue Room Only",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 765043924644259,
+							"parameters": {
+								"object": "Spikes"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 974578503491460
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 722870839048522,
+							"parameters": {
+								"x": "54",
+								"y": "565"
+							}
+						}
+					],
+					"sid": 786635898369920
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "playerbox",
+							"sid": 306260947987205
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 972445940131455
+						},
+						{
+							"id": "set-position",
+							"objectClass": "playerbox",
+							"sid": 431316301693284,
+							"parameters": {
+								"x": "54",
+								"y": "565"
+							}
+						}
+					],
+					"sid": 798346681609960
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "playerbox",
+							"sid": 254606526023206,
+							"parameters": {
+								"object": "secondcluebox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 151336113560101,
+							"parameters": {
+								"layout": "Second Clue"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "secondclue",
+							"sid": 926721918130583
+						},
+						{
+							"id": "destroy",
+							"objectClass": "secondcluebox",
+							"sid": 327031578692684
+						}
+					],
+					"sid": 369039140047811
+				}
+			],
+			"sid": 973125982454799
+		}
+	],
 	"sid": 474561427874978
 }

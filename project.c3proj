@@ -445,7 +445,10 @@
 					"hideoutend",
 					"thirdcluebox",
 					"diarybackground",
-					"thirdclue"
+					"thirdclue",
+					"secondclue",
+					"secondcluebox",
+					"secondcluenote"
 				],
 				"subfolders": [],
 				"name": "2D"
