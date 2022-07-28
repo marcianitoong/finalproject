@@ -576,6 +576,11 @@
 									"parameters": {
 										"layout": "First Clue Room"
 									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "blocknpcHitbox1area",
+									"sid": 413058887737236
 								}
 							],
 							"sid": 686884973514134
@@ -903,6 +908,15 @@
 												"x": "508.01922",
 												"y": "276.270921"
 											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "entreansOne",
+											"sid": 188064470399293,
+											"parameters": {
+												"x": "579.942572",
+												"y": "195.104441"
+											}
 										}
 									],
 									"sid": 976468659291247
@@ -1135,6 +1149,15 @@
 											"parameters": {
 												"x": "1358.963367",
 												"y": "276.236514"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "entranceTwo",
+											"sid": 136941229810142,
+											"parameters": {
+												"x": "1429.6437",
+												"y": "194.562437"
 											}
 										}
 									],
