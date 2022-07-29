@@ -111,6 +111,17 @@
 							"parameters": {
 								"collisions": "disabled"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 961793396246553,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 128424192855396

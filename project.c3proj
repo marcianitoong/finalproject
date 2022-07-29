@@ -515,7 +515,6 @@
 			"First Clue Room",
 			"Second Clue Room",
 			"Third Clue Room",
-			"Bar",
 			"Hideout",
 			"Newspaper",
 			"Controls",
@@ -534,7 +533,6 @@
 			"First Clue Room Event Sheet",
 			"Second Clue Room Event Sheet",
 			"Third Clue Room Event Sheet",
-			"Bar Event Sheet",
 			"Hideout Event Sheet",
 			"Start Menu Event Sheet",
 			"Newspaper Event Sheet",
@@ -556,7 +554,7 @@
 		"sound": {
 			"items": [
 				{
-					"name": "NewspaperFlip.webm",
+					"name": "PageFlip.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 183652190860561,
 					"file-info": {
@@ -599,6 +597,38 @@
 					"name": "KickDrumSoundEffect.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 589454043084424,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "CluePickup.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 109944555646003,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "doorslam.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 774096300488245,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "stab.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 920411036437631,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ButtonClick.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 377242835319453,
 					"file-info": {
 						"purpose": "none"
 					}

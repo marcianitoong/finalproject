@@ -5,6 +5,39 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 238849497912806
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 598981367645045,
+					"parameters": {
+						"audio-file": "CluePickup",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-paused",
+					"objectClass": "Audio",
+					"sid": 476859077073837,
+					"parameters": {
+						"tag": "\"bluesmusic\"",
+						"state": "pause"
+					}
+				}
+			],
+			"sid": 750087249900554
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 643887790237857,
@@ -20,6 +53,26 @@
 					"sid": 481581075374377,
 					"parameters": {
 						"layout": "First Clue Room"
+					}
+				},
+				{
+					"id": "set-paused",
+					"objectClass": "Audio",
+					"sid": 870072462902810,
+					"parameters": {
+						"tag": "\"bluesmusic\"",
+						"state": "resume"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 338759459148443,
+					"parameters": {
+						"audio-file": "PageFlip",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],

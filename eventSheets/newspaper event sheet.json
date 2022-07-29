@@ -48,7 +48,7 @@
 					"objectClass": "Audio",
 					"sid": 857407353804450,
 					"parameters": {
-						"audio-file": "NewspaperFlip",
+						"audio-file": "PageFlip",
 						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""

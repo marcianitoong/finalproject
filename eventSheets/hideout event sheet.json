@@ -111,6 +111,17 @@
 							"parameters": {
 								"collisions": "disabled"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 525959484126875,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 761165630713561
@@ -222,6 +233,17 @@
 							"sid": 446433111640545,
 							"parameters": {
 								"collisions": "disabled"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 910468522349920,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -335,6 +357,17 @@
 							"parameters": {
 								"collisions": "disabled"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 478793840159586,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 856986649116114
@@ -446,6 +479,17 @@
 							"sid": 454733742397026,
 							"parameters": {
 								"collisions": "disabled"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 577012347666431,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -841,6 +885,22 @@
 					],
 					"actions": [
 						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 703123505760860
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 629233380532463,
+							"parameters": {
+								"audio-file": "doorslam",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-enabled",
 							"objectClass": "playerbox",
 							"sid": 622540575704393,
@@ -984,6 +1044,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 697322224213262,
+							"parameters": {
+								"audio-file": "stab",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",

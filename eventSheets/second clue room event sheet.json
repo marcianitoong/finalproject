@@ -111,6 +111,17 @@
 							"parameters": {
 								"collisions": "disabled"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 101691585613105,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 173554248645771
@@ -222,6 +233,17 @@
 							"sid": 737279666597913,
 							"parameters": {
 								"collisions": "disabled"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 311526654023721,
+							"parameters": {
+								"audio-file": "ButtonClick",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],

@@ -487,7 +487,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "bern barrel",
+			"title": "burn barrel",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -641,12 +641,12 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 944220085340102,
+							"sid": 693734035607746,
 							"parameters": {
 								"audio-file": "Blues Music",
-								"loop": "not-looping",
+								"loop": "looping",
 								"volume": "-15",
-								"tag-optional": "\"\""
+								"tag-optional": "\"bluesmusic\""
 							}
 						}
 					],
@@ -784,57 +784,6 @@
 							"sid": 524338245304121
 						}
 					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "playerHitbox",
-							"sid": 968866211249330,
-							"parameters": {
-								"object": "entreansOne3"
-							}
-						}
-					],
-					"actions": [],
-					"sid": 896417858042004,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-key-pressed",
-									"objectClass": "Keyboard",
-									"sid": 355380221482812,
-									"parameters": {
-										"key": 69
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 891261396136565,
-									"parameters": {
-										"layout": "Bar"
-									}
-								},
-								{
-									"id": "destroy",
-									"objectClass": "dumpsterbottom2",
-									"sid": 750107232183686
-								},
-								{
-									"id": "destroy",
-									"objectClass": "dumpsterTop2",
-									"sid": 778390868694766
-								}
-							],
-							"sid": 665928034389564
-						}
-					]
 				}
 			],
 			"sid": 144650960327029
@@ -842,7 +791,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "controlls menue",
+			"title": "controls menu",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -892,169 +841,6 @@
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "npc last last",
-					"description": "",
-					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-overlapping-another-object",
-									"objectClass": "playerHitbox",
-									"sid": 981710268208700,
-									"parameters": {
-										"object": "latLats"
-									}
-								}
-							],
-							"actions": [],
-							"sid": 280014031027428,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "on-key-pressed",
-											"objectClass": "Keyboard",
-											"sid": 158246006496250,
-											"parameters": {
-												"key": 69
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 892277981708408,
-											"parameters": {
-												"text": "\"Detective:Hi\"",
-												"duration": "3"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 877034245339089,
-											"parameters": {
-												"seconds": "3.5"
-											}
-										},
-										{
-											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 582653517926795,
-											"parameters": {
-												"text": "\"Thinker:Ok im thinking\"",
-												"duration": "3"
-											}
-										}
-									],
-									"sid": 347786710178321
-								}
-							]
-						}
-					],
-					"sid": 567816906764737
-				},
-				{
-					"eventType": "group",
-					"disabled": false,
-					"title": "bar npc",
-					"description": "",
-					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [],
-							"actions": [],
-							"sid": 631261995194409,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "on-key-pressed",
-											"objectClass": "Keyboard",
-											"sid": 118061831292758,
-											"parameters": {
-												"key": 69
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 869761605133301,
-											"parameters": {
-												"text": "\"Detective:Hi can I come in?\"",
-												"duration": "3"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 534206534908365,
-											"parameters": {
-												"seconds": "3.5"
-											}
-										},
-										{
-											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 389365747398578,
-											"parameters": {
-												"text": "\"Buck:can I see you ID\"",
-												"duration": "3"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 449719763699060,
-											"parameters": {
-												"seconds": "3.5"
-											}
-										},
-										{
-											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 749893114612025,
-											"parameters": {
-												"text": "\"Detective:Here you go\"",
-												"duration": "3"
-											}
-										},
-										{
-											"id": "wait",
-											"objectClass": "System",
-											"sid": 907716640616285,
-											"parameters": {
-												"seconds": "3.5"
-											}
-										},
-										{
-											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 513041479065918,
-											"parameters": {
-												"text": "\"Buck:Ok come in\"",
-												"duration": "3"
-											}
-										}
-									],
-									"sid": 130302839733615
-								}
-							]
-						}
-					],
-					"sid": 745245928139396
-				},
-				{
-					"eventType": "group",
-					"disabled": false,
 					"title": "npcdoorone",
 					"description": "",
 					"isActiveOnStart": true,
@@ -1095,9 +881,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "playerText",
-											"sid": 291763109536015,
+											"sid": 693520484724482,
 											"parameters": {
-												"text": "\"Detective:Hi can I come in?\"",
+												"text": "\"Detective: Hey, have you heard of Jones Gambit?\"",
 												"duration": "3"
 											}
 										},
@@ -1112,9 +898,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "npcText",
-											"sid": 728785082638722,
+											"sid": 577896049646546,
 											"parameters": {
-												"text": "\"Jack:Give me five bucks and you have a deal\"",
+												"text": "\"Jack: Yes, he's always been suspicious.\"",
 												"duration": "3"
 											}
 										},
@@ -1129,9 +915,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "playerText",
-											"sid": 492632529107999,
+											"sid": 940355922833035,
 											"parameters": {
-												"text": "\"Detective:You suck here you go\"",
+												"text": "\"Detective: Do you know where he was before getting murdered?\"",
 												"duration": "3"
 											}
 										},
@@ -1146,9 +932,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "npcText",
-											"sid": 742478417449709,
+											"sid": 365159456381555,
 											"parameters": {
-												"text": "\"Jack:Ok bye loser\"",
+												"text": "\"Jack: No, but I saw someone sneaking through here \nearlier.\"",
 												"duration": "3"
 											}
 										},
@@ -1189,7 +975,7 @@
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "npc block1",
+					"title": "npc block",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -1228,10 +1014,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 817543930744994,
+											"objectClass": "npcText",
+											"sid": 793863859153023,
 											"parameters": {
-												"text": "\"Detective:Hi\"",
+												"text": "\"Hue: Get out of my way, I'm making street art!\"",
 												"duration": "3"
 											}
 										},
@@ -1245,10 +1031,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 785665023274533,
+											"objectClass": "playerText",
+											"sid": 206559446032430,
 											"parameters": {
-												"text": "\"Hue:Names Hue give me a sec I have to finnish staking the bottles\"",
+												"text": "\"Detective: Do you know about Jones Gambit?\"",
 												"duration": "3"
 											}
 										},
@@ -1262,10 +1048,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 892078185232543,
+											"objectClass": "npcText",
+											"sid": 926170626041978,
 											"parameters": {
-												"text": "\"Detective:do you have a last name\"",
+												"text": "\"Hue: I don't care leave me alone.\"",
 												"duration": "3"
 											}
 										},
@@ -1279,10 +1065,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 115713737312542,
+											"objectClass": "playerText",
+											"sid": 490803979685478,
 											"parameters": {
-												"text": "\"Hue:No leave me alown\"",
+												"text": "\"Detective: Alright then.\"",
 												"duration": "3"
 											}
 										}
@@ -1337,9 +1123,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "playerText",
-											"sid": 483044291604426,
+											"sid": 369852217899491,
 											"parameters": {
-												"text": "\"Detective:Hi can I come in?\"",
+												"text": "\"Detective: Hey you, did you hear about the murder?\"",
 												"duration": "3"
 											}
 										},
@@ -1354,9 +1140,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "npcText",
-											"sid": 108184178715596,
+											"sid": 425769922124334,
 											"parameters": {
-												"text": "\"Mat:Yeah its a bit messy but you can come in\"",
+												"text": "\"Matt: Yeah, Jones Gambit was my friend, a really \nnice guy.\"",
 												"duration": "3"
 											}
 										},
@@ -1371,9 +1157,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "playerText",
-											"sid": 428094338243267,
+											"sid": 603523416671416,
 											"parameters": {
-												"text": "\"Detective:Can you move the boxes in the mean time\"",
+												"text": "\"Detective: Did you see anything suspicious today?\"",
 												"duration": "3"
 											}
 										},
@@ -1388,9 +1174,9 @@
 										{
 											"id": "typewriter-text",
 											"objectClass": "npcText",
-											"sid": 762853869873998,
+											"sid": 876379343724272,
 											"parameters": {
-												"text": "\"Jack:Ok fine\"",
+												"text": "\"Matt: I've heard screams coming from this building, and saw someone supicious up ahead. I'll move these boxes for you in a bit.\"",
 												"duration": "3"
 											}
 										},
@@ -1431,7 +1217,7 @@
 				{
 					"eventType": "group",
 					"disabled": false,
-					"title": "last npc",
+					"title": "npcdoorthree",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
@@ -1470,10 +1256,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 644132887711973,
+											"objectClass": "npcText",
+											"sid": 811668192639425,
 											"parameters": {
-												"text": "\"Detective:Hi can I come in?\"",
+												"text": "\"Rob: I heard that you were asking about Jones \nGambit.\"",
 												"duration": "3"
 											}
 										},
@@ -1487,10 +1273,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 231446715769273,
+											"objectClass": "playerText",
+											"sid": 875521006037975,
 											"parameters": {
-												"text": "\"Rob:No let me eat my sandwich\"",
+												"text": "\"Detective: I was, you know anything?\"",
 												"duration": "3"
 											}
 										},
@@ -1504,10 +1290,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "playerText",
-											"sid": 429559238659266,
+											"objectClass": "npcText",
+											"sid": 127381420154636,
 											"parameters": {
-												"text": "\"Detective:What\"",
+												"text": "\"Rob: I worked for him, you know, this is his house.\"",
 												"duration": "3"
 											}
 										},
@@ -1521,10 +1307,10 @@
 										},
 										{
 											"id": "typewriter-text",
-											"objectClass": "npcText",
-											"sid": 844993577706987,
+											"objectClass": "playerText",
+											"sid": 459932956143368,
 											"parameters": {
-												"text": "\"Jack:Ok fine ill open the door so you can let me eat my sandwich\"",
+												"text": "\"Detective: I'll check it out.\"",
 												"duration": "3"
 											}
 										},
@@ -1552,6 +1338,75 @@
 						}
 					],
 					"sid": 314682131379694
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "npc hideout",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "playerHitbox",
+									"sid": 903179070912883,
+									"parameters": {
+										"object": "latLats"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 522785276959982,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 163677844206097,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "typewriter-text",
+											"objectClass": "playerText",
+											"sid": 477212210109215,
+											"parameters": {
+												"text": "\"Detective: Hey, did you see anyone come in here?\"",
+												"duration": "3"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 304904002212247,
+											"parameters": {
+												"seconds": "3.5"
+											}
+										},
+										{
+											"id": "typewriter-text",
+											"objectClass": "npcText",
+											"sid": 728452504783952,
+											"parameters": {
+												"text": "\"Lucas: No, but I must warn you, it's a dangerous \nplace.\"",
+												"duration": "3"
+											}
+										}
+									],
+									"sid": 410954375580010
+								}
+							]
+						}
+					],
+					"sid": 162701729905419
 				}
 			],
 			"sid": 142844693062705
