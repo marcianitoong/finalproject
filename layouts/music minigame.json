@@ -1,5 +1,5 @@
 {
-	"name": "music mini game",
+	"name": "Music Minigame",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -653,5 +653,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "mucic mini game sheet"
+	"eventSheet": "Music Minigame Event Sheet"
 }
