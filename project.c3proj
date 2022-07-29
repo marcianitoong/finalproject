@@ -225,7 +225,9 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"entreansOne2hitbox"
+		],
 		"subfolders": [
 			{
 				"items": [

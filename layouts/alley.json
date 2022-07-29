@@ -16291,6 +16291,46 @@
 					}
 				},
 				{
+					"type": "entreansOne2hitbox",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 52,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 480.62436868683966,
+						"y": -280.63123568508433,
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "ratBody",
 					"properties": {
 						"shape": "box",
@@ -26305,8 +26345,8 @@
 						}
 					},
 					"world": {
-						"x": 138.74060994301453,
-						"y": 89.28512193076182,
+						"x": 426.99999637548365,
+						"y": 396.544184927183,
 						"width": 272.3747885894676,
 						"height": 171.68282128658876,
 						"originX": 0.5,
@@ -26335,7 +26375,7 @@
 						"line-height": 0,
 						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
-						"wrapping": "word",
+						"wrapping": "character",
 						"initially-visible": true,
 						"origin": "center"
 					},
@@ -26374,8 +26414,8 @@
 						}
 					},
 					"world": {
-						"x": 138.74061,
-						"y": 106.79898613250612,
+						"x": 426.9999964324691,
+						"y": 414.0580491289273,
 						"width": 272.3747885894676,
 						"height": 171.68282128658876,
 						"originX": 0.5,
