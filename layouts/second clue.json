@@ -76,10 +76,10 @@
 				{
 					"type": "secondcluenote",
 					"properties": {
-						"text": "Hey, that layout you have there looks weird.\nI've never seen a house like that before.",
+						"text": "I need your help, wear these clothes I've sent you and go to the alleyways of Alley City. You won't regret it.\n-Jones Gambit",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 50,
+						"size": 45,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -134,15 +134,15 @@
 						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
 						"wrapping": "word",
-						"initially-visible": false,
+						"initially-visible": true,
 						"origin": "top-left"
 					},
 					"uid": 656,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 629,
-						"y": 407,
+						"x": 708,
+						"y": 438,
 						"width": 134.0552870185287,
 						"height": 27.64717783180282,
 						"originX": 0,
