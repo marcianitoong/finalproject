@@ -967,16 +967,7 @@
 					"children": [
 						{
 							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-overlapping-another-object",
-									"objectClass": "playerHitbox",
-									"sid": 640292566518515,
-									"parameters": {
-										"object": "barHitbox"
-									}
-								}
-							],
+							"conditions": [],
 							"actions": [],
 							"sid": 631261995194409,
 							"children": [
@@ -993,11 +984,6 @@
 										}
 									],
 									"actions": [
-										{
-											"id": "destroy",
-											"objectClass": "barHitbox",
-											"sid": 726441658839155
-										},
 										{
 											"id": "typewriter-text",
 											"objectClass": "playerText",
@@ -1057,11 +1043,6 @@
 												"text": "\"Buck:Ok come in\"",
 												"duration": "3"
 											}
-										},
-										{
-											"id": "destroy",
-											"objectClass": "barHitbox2",
-											"sid": 689001541323053
 										}
 									],
 									"sid": 130302839733615

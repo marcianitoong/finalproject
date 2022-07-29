@@ -1,7 +1,7 @@
 {
-	"name": "3DShape7",
+	"name": "musicStage",
 	"plugin-id": "Shape3D",
-	"sid": 329435346582718,
+	"sid": 127746078445044,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,63 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2026599,
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 820,
-						"height": 2592,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 171260,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.998780487804878,
-								0,
-								0.998780487804878,
-								0.5,
-								0.998780487804878,
-								0.9996141975308642,
-								0.5,
-								0.9996141975308642,
-								0,
-								0.9996141975308642,
-								0,
-								0.5
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 820,
-						"height": 2592,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 7906303,
-						"collisionPoly": {
-							"points": [
-								1,
-								1,
-								0,
-								1,
-								0,
-								0,
-								1,
-								0
-							]
-						},
+						"imageSpriteId": 8772859,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -86,7 +30,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6700092,
+						"imageSpriteId": 2028279,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -98,7 +42,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8547324,
+						"imageSpriteId": 4417567,
 						"useCollisionPoly": true,
 						"duration": 1
 					},
@@ -110,12 +54,36 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9974938,
+						"imageSpriteId": 1569628,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 477253,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 550279,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 909468118773561,
+				"sid": 337159393070472,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

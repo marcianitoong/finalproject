@@ -856,7 +856,7 @@
 					}
 				},
 				{
-					"type": "3DShape7",
+					"type": "secentGuyLeaning",
 					"properties": {
 						"shape": "box",
 						"z-height": 20,
@@ -3037,7 +3037,7 @@
 					}
 				},
 				{
-					"type": "3DShape10",
+					"type": "saxplayer",
 					"properties": {
 						"shape": "box",
 						"z-height": 20,
@@ -3077,7 +3077,7 @@
 					}
 				},
 				{
-					"type": "3DShape3",
+					"type": "chelloplayer",
 					"properties": {
 						"shape": "box",
 						"z-height": 20,
@@ -3117,7 +3117,7 @@
 					}
 				},
 				{
-					"type": "3DShape4",
+					"type": "drums",
 					"properties": {
 						"shape": "box",
 						"z-height": 20,
@@ -3157,7 +3157,7 @@
 					}
 				},
 				{
-					"type": "3DShape5",
+					"type": "pianoplayer",
 					"properties": {
 						"shape": "box",
 						"z-height": 20,
@@ -13587,7 +13587,7 @@
 					}
 				},
 				{
-					"type": "3DShape6",
+					"type": "musicStage",
 					"properties": {
 						"shape": "box",
 						"z-height": 5,

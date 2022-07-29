@@ -40,16 +40,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "shadowlight",
-			"name": "Shadow light",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "shadowlight",
+			"name": "Shadow light",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -192,14 +192,6 @@
 		},
 		{
 			"type": "effect",
-			"id": "softlight",
-			"name": "Soft light",
-			"author": "Scirra",
-			"version": "r302",
-			"bundled": false
-		},
-		{
-			"type": "effect",
 			"id": "hardlight",
 			"name": "Hard light",
 			"author": "Scirra",
@@ -216,6 +208,14 @@
 		},
 		{
 			"type": "effect",
+			"id": "softlight",
+			"name": "Soft light",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "effect",
 			"id": "fogexponential",
 			"name": "Fog (exponential)",
 			"author": "Scirra",
@@ -225,55 +225,12 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [
-			"entreansOne2hitbox"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
 					"brickfloor",
 					"ShadowLight",
-					"fier",
-					"3DShape10",
-					"3DShape2",
-					"3DShape3",
-					"3DShape4",
-					"3DShape5",
-					"3DShape7",
-					"bottleNpc",
-					"beerBottem",
-					"beerTop",
-					"bernBaralProp",
-					"bernBarralProp",
-					"fierSprite",
-					"3DShape",
-					"3DShape11",
-					"3DShape12",
-					"3DShape13",
-					"3DShape14",
-					"3DShape15",
-					"3DShape16",
-					"3DShape6",
-					"BoxesPropDectruckt",
-					"buttion",
-					"entranceTwo",
-					"entreansOne",
-					"entreansOne2",
-					"exitButtion",
-					"fakeNoteOrenge",
-					"fakeNotePink",
-					"fakePerple",
-					"musitionStage",
-					"musitionTeleport",
-					"noteOrenge",
-					"notePink",
-					"OrengeMusicNote",
-					"orengeSpaner",
-					"perpleNote",
-					"PinkMusicNote",
-					"pinkSpaner",
-					"preperlSpan",
-					"Sprite4",
 					"Sprite7",
 					"Sprite9",
 					"streakSkore",
@@ -281,38 +238,9 @@
 					"Text2",
 					"Text3",
 					"Text4",
-					"diarytext",
-					"textNpc1",
-					"textNpc2",
-					"minigamebackground",
 					"titorilBackrownd",
 					"Tutorial",
-					"3DShape17",
-					"3DShape18",
-					"3DShape8",
-					"3DShape9",
-					"barHitbox",
-					"barHitbox2",
-					"blocknpcHitbox1area",
-					"blocknpcHitbox1area2",
-					"BoxesPropDectruckt2",
-					"doorHitboxnpcone",
-					"doornpcone",
-					"doorsone2",
-					"doorsone3",
-					"doorsone4",
-					"doorsone5",
-					"dumpsterbottom2",
-					"dumpsterTop2",
-					"entreansOne3",
-					"entreansOne4",
-					"latLats",
-					"musicMiniGameText",
-					"npcHitboxLast",
-					"npclast",
-					"npclastLast",
 					"npcText",
-					"playerHitbox",
 					"playerText"
 				],
 				"subfolders": [
@@ -374,7 +302,16 @@
 							"dumpsterbottom",
 							"dumpsterTop",
 							"Fence",
-							"newspaper"
+							"newspaper",
+							"bernBaralProp",
+							"bernBarralProp",
+							"BoxesPropDectruckt",
+							"BoxesPropDectruckt2",
+							"dumpsterbottom2",
+							"dumpsterTop2",
+							"fier",
+							"fierSprite",
+							"Sprite4"
 						],
 						"subfolders": [],
 						"name": "props"
@@ -401,6 +338,90 @@
 						],
 						"subfolders": [],
 						"name": "splots"
+					},
+					{
+						"items": [
+							"3DShape11",
+							"3DShape14",
+							"3DShape16",
+							"buttion",
+							"chelloplayer",
+							"drums",
+							"exitButtion",
+							"fakeNoteOrenge",
+							"fakeNotePink",
+							"fakePerple",
+							"minigamebackground",
+							"musicMiniGameText",
+							"musicStage",
+							"musitionStage",
+							"musitionTeleport",
+							"noteOrenge",
+							"notePink",
+							"OrengeMusicNote",
+							"perpleNote",
+							"orengeSpaner",
+							"pianoplayer",
+							"PinkMusicNote",
+							"pinkSpaner",
+							"playerHitbox",
+							"preperlSpan",
+							"saxplayer"
+						],
+						"subfolders": [],
+						"name": "musitionmini"
+					},
+					{
+						"items": [
+							"beerBottem",
+							"beerTop"
+						],
+						"subfolders": [],
+						"name": "roud block"
+					},
+					{
+						"items": [
+							"blocknpcHitbox1area",
+							"blocknpcHitbox1area2",
+							"doorHitboxnpcone",
+							"latLats",
+							"npcHitboxLast",
+							"entreansOne2hitbox"
+						],
+						"subfolders": [],
+						"name": "hitbox"
+					},
+					{
+						"items": [
+							"bottleNpc",
+							"doornpcone",
+							"npclast",
+							"npclastLast",
+							"secentGuyLeaning"
+						],
+						"subfolders": [],
+						"name": "npc"
+					},
+					{
+						"items": [
+							"doorsone2",
+							"doorsone3",
+							"doorsone4",
+							"doorsone5"
+						],
+						"subfolders": [],
+						"name": "door"
+					},
+					{
+						"items": [
+							"entranceTwo",
+							"entreansOne",
+							"entreansOne2",
+							"entreansOne3",
+							"entreansOne4"
+						],
+						"subfolders": [],
+						"name": "New folder"
 					}
 				],
 				"name": "3D"
@@ -449,7 +470,8 @@
 					"secondclue",
 					"secondcluebox",
 					"secondcluenote",
-					"secondcluetext"
+					"secondcluetext",
+					"diarytext"
 				],
 				"subfolders": [],
 				"name": "2D"
