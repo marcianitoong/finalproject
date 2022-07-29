@@ -225,36 +225,7 @@
 	],
 	"uniqueId": "x4r2on58mff",
 	"objectTypes": {
-		"items": [
-			"blocknpcHitbox1area",
-			"Text5",
-			"playerText",
-			"npcText",
-			"doornpcone",
-			"doorHitboxnpcone",
-			"playerHitbox",
-			"blocknpcHitbox1area2",
-			"doorsone2",
-			"3DShape8",
-			"npclast",
-			"npcHitboxLast",
-			"doorsone3",
-			"musicMiniGameText",
-			"entreansOne3",
-			"doorsone4",
-			"3DShape9",
-			"npclastLast",
-			"barHitbox",
-			"3DShape18",
-			"barHitbox2",
-			"dumpsterbottom2",
-			"dumpsterTop2",
-			"3DShape17",
-			"latLats",
-			"entreansOne4",
-			"doorsone5",
-			"BoxesPropDectruckt2"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
@@ -313,7 +284,34 @@
 					"textNpc2",
 					"minigamebackground",
 					"titorilBackrownd",
-					"Tutorial"
+					"Tutorial",
+					"3DShape17",
+					"3DShape18",
+					"3DShape8",
+					"3DShape9",
+					"barHitbox",
+					"barHitbox2",
+					"blocknpcHitbox1area",
+					"blocknpcHitbox1area2",
+					"BoxesPropDectruckt2",
+					"doorHitboxnpcone",
+					"doornpcone",
+					"doorsone2",
+					"doorsone3",
+					"doorsone4",
+					"doorsone5",
+					"dumpsterbottom2",
+					"dumpsterTop2",
+					"entreansOne3",
+					"entreansOne4",
+					"latLats",
+					"musicMiniGameText",
+					"npcHitboxLast",
+					"npclast",
+					"npclastLast",
+					"npcText",
+					"playerHitbox",
+					"playerText"
 				],
 				"subfolders": [
 					{
@@ -448,7 +446,8 @@
 					"thirdclue",
 					"secondclue",
 					"secondcluebox",
-					"secondcluenote"
+					"secondcluenote",
+					"secondcluetext"
 				],
 				"subfolders": [],
 				"name": "2D"
@@ -549,7 +548,7 @@
 					}
 				},
 				{
-					"name": "Bass-Drum-Hit-Level-6b-www.fesliyanstudios.com.webm",
+					"name": "BassDrumHit.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 465826012569362,
 					"file-info": {
@@ -557,7 +556,7 @@
 					}
 				},
 				{
-					"name": "Hi-Hat-Closed-Hit-A1-www.fesliyanstudios.com.webm",
+					"name": "HiHatClosedHit.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 187471779167095,
 					"file-info": {
@@ -565,7 +564,7 @@
 					}
 				},
 				{
-					"name": "SD7575.webm",
+					"name": "Hit.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 929339987762312,
 					"file-info": {
@@ -573,7 +572,7 @@
 					}
 				},
 				{
-					"name": "Kick_drum_sound_effect_(getmp3.pro).webm",
+					"name": "KickDrumSoundEffect.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 589454043084424,
 					"file-info": {

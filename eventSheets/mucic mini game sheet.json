@@ -182,7 +182,7 @@
 											"objectClass": "Audio",
 											"sid": 655531955403178,
 											"parameters": {
-												"audio-file": "Kick_drum_sound_effect_(getmp3.pro)",
+												"audio-file": "KickDrumSoundEffect",
 												"loop": "not-looping",
 												"volume": "0",
 												"tag-optional": "\"\""
@@ -237,7 +237,7 @@
 											"objectClass": "Audio",
 											"sid": 778223208826666,
 											"parameters": {
-												"audio-file": "Bass-Drum-Hit-Level-6b-www.fesliyanstudios.com",
+												"audio-file": "BassDrumHit",
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
@@ -269,7 +269,7 @@
 											"objectClass": "Audio",
 											"sid": 654364712727098,
 											"parameters": {
-												"audio-file": "Hi-Hat-Closed-Hit-A1-www.fesliyanstudios.com",
+												"audio-file": "HiHatClosedHit",
 												"loop": "not-looping",
 												"volume": "-10",
 												"tag-optional": "\"\""
